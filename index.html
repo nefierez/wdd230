@@ -30,6 +30,11 @@
             <li>Lesson 11: <a href="workinprogress.html" target="_blank">Title</a></li>
         </ul>
     </main>
-    <footer></footer>
+    <footer>
+        <p class="smaller">Last Modified Date: <span id="lastmod"></span></p>
+        <script>
+            document.getElementById("lastmod").textContent = document.lastModified;
+        </script>
+    </footer>
 </body>
 </html>
