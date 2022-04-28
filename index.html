@@ -7,7 +7,9 @@
     <meta name="Assignment Portal" content="Assignment portal for Nefi Perez in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
-    <script src="scripts/scripts.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -32,10 +34,9 @@
         </ul>
     </main>
     <footer>
-        <p class="smaller">Last Modified Date: <span id="lastmod"></span></p>
-        <script>
-            document.getElementById("lastmod").textContent = document.lastModified;
-        </script>
+        <p>&copy;<span id="year"></span> | Nefi I. Perez | Guatemala</p>
+        <p>Last Modified: <span id="lastupdate"></span></p>
     </footer>
+    <script src="scripts/scripts.js"></script>
 </body>
 </html>

@@ -14,10 +14,12 @@ header, main, footer {
 }
 
 header{
-    margin: 1rem auto;
     border: 1px solid blue;
     padding: 0.5rem;
     background-color: gray;
+    display: grid;
     grid-template-columns: 200px 1fr;
     align-items: center;
+    font-family: 'Noto Serif', serif;
+    text-shadow: 4px 4px 4px #aaa;
 }
