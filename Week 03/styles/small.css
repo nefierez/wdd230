@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    font-family: 'Libre Baskerville', serif;
+    margin: 0 auto;
+    max-width: 780px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+nav ul li a {
+    text-align: center;
+    text-decoration: none;
+    margin: 1rem;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Merienda One', cursive;
+    margin: 1rem;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+body{
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
