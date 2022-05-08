@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header, footer{
+    background-color: #08232B;
+    color: #E8F3FE;
+    font-family: 'Merienda One', cursive;
+    text-align: center;
+    padding: 2rem;
+    font-size: 1rem;
+}
+body{
+    display: grid;
+}
+nav {
+    font-family: 'Libre Baskerville', serif;
+    margin: auto;
+    max-width: 940px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 1rem;    
+}
+nav ul li a {
+    text-decoration: none;
+    margin: 2rem;
+    color: #08232B;
+}
