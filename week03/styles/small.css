@@ -17,17 +17,18 @@ body{
 nav {
     font-family: 'Libre Baskerville', serif;
     margin: auto;
-    max-width: 940px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 nav ul {
     list-style-type: none;
-    display: flex;
-    padding: 1rem;    
 }
 nav ul li a {
     text-decoration: none;
-    margin: 2rem;
+    margin: 1rem;
     color: #08232B;
+    display: block;
 }
 
 h2, h3, h4 {
@@ -53,3 +54,4 @@ body{
 section, p{
     margin: 1rem;
 }
+
