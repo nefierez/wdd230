@@ -61,10 +61,10 @@ img{
     width: 100%;
     display: block;
     border-radius: 15px;
-    padding: 0rem 3rem 2rem 2rem;
+    padding: 1rem 3rem 2rem 2rem;
 }
 .personas{
-    max-width: 300px;
+    max-width: 400px;
     margin: 0rem 3rem 2rem 2rem;
 }
 section, #font1, #font2, #scenarios{
