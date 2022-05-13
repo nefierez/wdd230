@@ -1,0 +1,12 @@
+@media (min-width: 60rem) {
+    nav button {
+        display: none;
+    }
+    nav ul#navigation {
+        display: flex;
+        justify-content: end;
+    }
+    nav ul li a {
+        border: none;
+    }
+}
