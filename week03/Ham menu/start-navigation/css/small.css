@@ -39,3 +39,8 @@ nav ul {
 nav ul.open {
     display: block;
 }
+#hamburguer span:nth-child(1) {display: block;}
+#hamburguer span:nth-child(2) {display: none;}
+
+#hamburguer.open span:nth-child(1) {display: none;}
+#hamburguer.open span:nth-child(2) {display: block;}
