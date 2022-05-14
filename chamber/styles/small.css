@@ -69,7 +69,6 @@ nav ul.open {display: block;}
 body {
     font-size: 16px;
 }
-
 footer {
     text-align: center;
     background-color: #F6FAFE;
@@ -83,8 +82,22 @@ footer {
 #address, #contactInfo, #myInfo {
     padding-bottom: .5rem;
 }
+#contactInfo a {
+    color: #08232B;
+}
 #myInfo{
     background-color: #08232B;
     color: #F6FAFE;
     padding-top: .5rem;
+}
+.placeholder {
+    border: 5px #08232B;
+    background-color: beige;
+    margin: .2rem;
+    height: 150px;
+}
+.spotlights {
+    margin-top: .4rem;
+    background-color: aliceblue;
+    height: 40px;
 }
