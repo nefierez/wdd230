@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 header {
+    min-width: 360px;
     display: flex;
+    padding: .5rem;
     align-items: center;
     text-align: center;
     background-color: #F6FAFE;
@@ -17,11 +19,15 @@ header {
     width: 80px;
 }
 .logos{
-    width: 40px;
-    margin: .3rem 2vw;
+    width: 35px;
+    margin: .2rem;
+}
+#headings {
+    font-size: .8rem;
+    margin: 15px;
 }
 nav button {
-    margin: .3rem 2vw;
+    margin: -12px .3rem;
     background-color: transparent;
     border: none;
     font-size: 2rem;
@@ -50,15 +56,35 @@ nav ul.open {display: block;}
 #menu span:nth-child(2) {display:none}
 
 #menu.open span:nth-child(1) {display: none;}
-#menu.open span:nth-child(2) {display: block}
+#menu.open span:nth-child(2) {display: block;}
 
 #date {
     display: block;
     text-align: center;
-    background-color: #F6FAFE;
-    color: #08232B;
-    padding: 1.5rem;
+    font-weight: 400;
+    background-color: #08232B;
+    color: #F6FAFE;
+    padding: .7rem;
 }
 body {
     font-size: 16px;
+}
+
+footer {
+    text-align: center;
+    background-color: #F6FAFE;
+    color: #08232B;
+    font-size: 12px;
+    padding: .5rem 0 0 0;
+}
+#logo_footer {
+    width: 100px;
+}
+#address, #contactInfo, #myInfo {
+    padding-bottom: .5rem;
+}
+#myInfo{
+    background-color: #08232B;
+    color: #F6FAFE;
+    padding-top: .5rem;
 }

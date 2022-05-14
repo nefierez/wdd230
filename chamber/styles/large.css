@@ -1,12 +1,49 @@
-@media (min-width: 60rem) {
+@media (min-width: 700px) {
+    header {
+        padding: .75rem;
+    }
+    #logo {
+        width: 90px;
+    }
+    #headings {
+        font-size: 1rem;
+    }
+    nav {
+        margin-left: 1.5rem;
+    }
+    #social {
+        top: 40px;
+        right: 85px;
+    }
+    nav button {
+        top: 50px;
+    }
+}
+@media (min-width: 960px) {
+    header {
+        padding: 1rem;
+        font-size: 1.2rem;
+    }
+    #logo {
+        width: 100px;
+    }
+    #headings {
+        font-size: 1.2rem;
+    }
+    nav {
+        margin-left: 1.5rem;
+    }
     nav button {
         display: none;
     }
     nav ul#navigation {
         display: flex;
-        justify-content: end;
     }
     nav ul li a {
         border: none;
+    }
+    #social {
+        top: 48px;
+        right: 40px;
     }
 }

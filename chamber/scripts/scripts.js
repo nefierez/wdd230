@@ -5,4 +5,9 @@ function toggleMenu() {
 const x = document.querySelector("#menu");
 x.onclick = toggleMenu;
 
-document.querySelector('#date').innerHTML = new Date();
+
+const date = new Date().toDateString();
+document.querySelector("#date").innerHTML = date;
+
+document.querySelector("#lastModified").innerHTML = document.lastModified;
+document.querySelector("#year").innerHTML = new Date().getFullYear();
