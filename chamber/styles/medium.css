@@ -40,4 +40,50 @@
     #twitter {
         margin-right: .5rem;
     }
+    footer {
+        display: grid;
+        grid-template-columns: .5fr 1fr 1fr;
+        grid-template-rows: 1fr auto;
+        padding-bottom: .5rem;
+        align-items: center;
+    }
+    #logo_footer {
+        width: 100px;
+        grid-column: 1 / 2;
+        padding-bottom: .5rem;
+        float: right;
+    }
+    #address {
+        grid-column: 2 / 3;
+        text-align: left;
+        margin-left: .5rem;
+    }
+    #contactInfo {
+        line-height: 18px;
+        grid-column: 3 / 4;
+        text-align: right;
+        margin-right: 1rem;
+    }
+    #myInfo {
+        grid-column: 1 / 4;
+        display: grid;
+        grid-template-columns: 2fr .9fr 1.1fr 2.5fr;
+        font-size: 10px;
+    }
+    #myInfo p:nth-child(1){
+        grid-template-columns: 1/2;
+        text-align: right;
+    }
+    #myInfo p:nth-child(2){
+        grid-template-columns: 2/3;
+        text-align: center;
+    }
+    #myInfo p:nth-child(3){
+        grid-template-columns: 3/4;
+        text-align: left;
+    }
+    #myInfo p:nth-child(4){
+        grid-template-columns: 4/5;
+        text-align: left;
+    }
 }
