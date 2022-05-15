@@ -28,6 +28,7 @@ header{
     border-radius: 10px 10px 0px 0px;
 }
 #cse121b {
+    display: none;
     background-color: #26798E;
     color: aliceblue;
     padding: .5rem;
