@@ -110,6 +110,7 @@ main {
 .spotlights :nth-child(3) {
     display: none;
 }
+
 .join {
     display: none;
 }

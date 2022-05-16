@@ -86,4 +86,29 @@
         grid-template-columns: 4/5;
         text-align: left;
     }
+    .spotlights {
+        border: solid 1px gray;
+        padding: .8rem;
+    }
+    main {
+        grid-template-columns: 1fr .9fr 1.1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
+    .hero, .news, .spotlights, .join {
+        grid-column:  1/4;
+    }
+    .news {
+        grid-row: 2/3;
+    }
+    .spotlights {
+        grid-row: 3/4;
+    }
+    .join {
+        display: grid;
+        grid-row: 4/5;
+    }
+    .event {
+        grid-row: 5/6;
+        grid-column: 1/3;
+    }
 }
