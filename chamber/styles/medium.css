@@ -86,10 +86,8 @@
         grid-template-columns: 4/5;
         text-align: left;
     }
-    .spotlights {
-        border: solid 1px gray;
-        padding: .8rem;
-    }
+}
+@media (min-width: 700px) {
     main {
         grid-template-columns: 1fr .9fr 1.1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
