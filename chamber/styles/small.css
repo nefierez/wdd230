@@ -103,7 +103,6 @@ main {
     font-size: 1.2rem;
 }
 .spotlights {
-    display: grid;
     border: solid 1px gray;
     padding: .8rem;
 }

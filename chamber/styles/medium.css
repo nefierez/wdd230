@@ -103,6 +103,9 @@
     .spotlights {
         grid-row: 3/4;
     }
+    .spot1 {
+        grid-row: 3/3.4;
+    }
     .join {
         display: grid;
         grid-row: 4/5;
