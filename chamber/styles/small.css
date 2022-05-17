@@ -99,17 +99,21 @@ main {
     background-color: lightgray;
     margin: .5rem .2rem 0;
     padding: 1.2rem;
-    height: 200px;
+    height: 220px;
     font-size: 1.2rem;
 }
-.spotlights {
-    border: solid 1px gray;
-    padding: .8rem;
+.light-container {
+    height: 400px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
 }
 .spotlights :nth-child(3) {
     display: none;
 }
-
+.spot1, .spot2, .spot3 {
+    border: solid 1px gray;
+    padding: .8rem;
+}
 .join {
     display: none;
 }
