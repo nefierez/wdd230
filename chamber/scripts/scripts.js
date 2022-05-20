@@ -11,3 +11,18 @@ document.querySelector("#date").innerHTML = date;
 
 document.querySelector("#lastModified").innerHTML = document.lastModified;
 document.querySelector("#year").innerHTML = new Date().getFullYear();
+
+/* ===========================================================================================*/
+
+
+let d = new Date().getDate();
+
+const banner = document.getElementById("banner")
+if (d === 1 || d === 2) {
+    banner.style.display = "block";
+}
+
+const cerrar = document.querySelector("#cerrar");
+cerrar.addEventListener("#click", () => {
+    banner.style.display = "none";
+});
