@@ -17,12 +17,12 @@ document.querySelector("#year").innerHTML = new Date().getFullYear();
 
 let d = new Date().getDate();
 
-const banner = document.getElementById("banner")
+const banner = document.querySelector("#banner")
 if (d === 1 || d === 2) {
-    banner.style.display = "block";
+    banner.style.display = "none";
 }
 
-const cerrar = document.querySelector("#cerrar");
-cerrar.addEventListener("#click", () => {
+const closeBtn = document.querySelector("#closeBtn");
+closeBtn.addEventListener("#click", () => {
     banner.style.display = "none";
 });

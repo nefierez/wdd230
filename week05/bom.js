@@ -4,6 +4,8 @@ const addButton = document.querySelector("#addButton");
 
 addButton.addEventListener('click', () => {
     const myChapter = favchap.value;
+
+  if (myChapter != "") {
     favchap.value = '';
 
     const listChapter = document.createElement('li');
@@ -16,9 +18,12 @@ addButton.addEventListener('click', () => {
     listBtn.textContent = 'Delete';
     list.appendChild(listChapter);
 
-  listBtn.addEventListener('click', () => {
+    listBtn.addEventListener('click', () => {
     list.removeChild(listChapter);
   });
 
-  favchap.focus();
+    favchap.focus();
+  } else {
+    alert("Enter your favorite chapter!")
+  }
 });

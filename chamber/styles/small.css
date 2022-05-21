@@ -11,7 +11,7 @@
     background-color: #08232B;
     color: #F6FAFE;
 }
-#cerrar {
+#closeBtn {
         background-color: transparent;
         color: red;
         border: none;
@@ -37,7 +37,6 @@ header {
 .logos{
     width: 35px;
     margin: .2rem;
-    position: absolute;
 }
 #headings {
     font-size: .8rem;
