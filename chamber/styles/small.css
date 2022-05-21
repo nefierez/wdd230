@@ -11,12 +11,12 @@
     background-color: #08232B;
     color: #F6FAFE;
 }
-#closeBtn {
-        background-color: transparent;
-        color: red;
-        border: none;
-        padding-left: 2rem;
-        font-size: 1.5rem;
+#close {
+    background-color: transparent;
+    color: red;
+    border: none;
+    padding-left: 2rem;
+    font-size: 1.5rem;
 }
 header {
     min-width: 360px;
