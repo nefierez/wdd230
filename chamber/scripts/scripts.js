@@ -1,6 +1,6 @@
 let d = new Date().getDay();
 
-const banner = document.getElementById("banner");
+const banner = document.querySelector("#banner");
 if (d === 1 || d === 2) {
     banner.style.display = "block";
 }

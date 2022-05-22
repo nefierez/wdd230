@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 #banner {
+    display: none;
     min-width: 360px;
     padding: 1.5rem;
     font-size: 1.5rem;
