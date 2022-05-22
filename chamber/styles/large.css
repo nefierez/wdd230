@@ -34,6 +34,10 @@
     }
 }
 @media (min-width: 960px) {
+    #banner {
+        padding: 2rem;
+        font-size: 2rem;
+    }
     header {
         padding: 1rem;
         font-size: 1.2rem;

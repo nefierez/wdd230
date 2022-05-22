@@ -1,4 +1,4 @@
-@media (min-width: 420px) {
+/* @media (min-width: 420px) {
     nav button {
         background-color: transparent;
         border: none;
@@ -14,9 +14,9 @@
         top: 30px;
         right: 80px;
     }
-}
+} */
 @media (min-width: 520px) {
-    #headings {
+    /* #headings {
         font-size: 1rem;
         margin: 15px;
     }
@@ -39,6 +39,10 @@
     }
     #twitter {
         margin-right: .5rem;
+    } */
+    #banner {
+        padding: 1.75rem;
+        font-size: 1.75rem;
     }
     footer {
         display: grid;
