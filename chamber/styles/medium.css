@@ -1,10 +1,12 @@
 @media (min-width: 700px) {
     #banner {
         padding: 1.75rem;
-        font-size: 1.75rem;
+        font-size: 1.5rem;
     }
     #logo {
-        width: 90px;
+        width: 100px;
+        float: right;
+        padding: .75rem;
     }
     #headings {
         font-size: 1rem;
@@ -21,7 +23,6 @@
         display: grid;
         grid-template-columns: .5fr 1fr 1fr;
         grid-template-rows: 1fr auto;
-        padding-bottom: .5rem;
         align-items: center;
         font-size: .9rem;
     }

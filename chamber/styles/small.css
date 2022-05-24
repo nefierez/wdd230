@@ -7,7 +7,7 @@
     display: none;
     min-width: 360px;
     padding: 1.5rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: center;
     background-color: #08232B;
     color: #F6FAFE;
@@ -32,10 +32,11 @@ header {
     width: 80px;
     grid-column: 1/2;
     padding: .5rem;
+    margin-left: .5rem;
 }
 #headings {
     font-size: .8rem;
-    margin: 15px;
+    margin: 12px;
     grid-column: 2/3;
 }
 #social {
@@ -121,6 +122,7 @@ footer {
 }
 main {
     display: grid;
+    margin: 1rem;
 }
 .placeholder {
     border: solid 1px gray;

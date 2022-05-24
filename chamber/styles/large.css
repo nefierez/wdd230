@@ -1,33 +1,40 @@
-@media (min-width: 960px) {
+@media (min-width: 1000px) {
     #banner {
         padding: 2rem;
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     header {
-        padding: 1rem;
+        display: flex;
         font-size: 1.2rem;
+        align-items: center;
+        text-align: center;
     }
     #logo {
-        width: 100px;
+        width: 120px;
+        padding-left: 1rem;
+        padding-right: 0;
     }
     #headings {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     nav {
-        margin-left: 1.5rem;
+        margin: 0 2rem;
     }
-    nav button {
+    #menu {
         display: none;
     }
     nav ul#navigation {
         display: flex;
+        order: 3;
     }
     nav ul li a {
         border: none;
+        background-color: transparent;
     }
     #social {
-        top: 48px;
-        right: 40px;
+        order: 2;
+        padding: 0 .9rem;
+        position: relative;
     }
     main {
         display: grid;
@@ -73,5 +80,11 @@
     .spotlights :nth-child(3) {
         display: block;
     }
-
+    footer {
+        font-size: 1.1rem;
+    }
+    #contactInfo {
+        line-height: 24px;
+        margin-right: 3rem;
+    }
 }
