@@ -1,38 +1,3 @@
-@media (min-width: 700px) {
-    header {
-        padding: .75rem;
-    }
-    #logo {
-        width: 90px;
-    }
-    #headings {
-        font-size: 1rem;
-    }
-    nav {
-        margin-left: 1.5rem;
-    }
-    #social {
-        top: 40px;
-        right: 85px;
-    }
-    nav button {
-        top: 50px;
-    }
-    footer {
-        font-size: 1rem;
-    }
-    #address {
-        margin-left: 1rem;
-    }
-    #myInfo {
-        font-size: .9rem;
-        padding: 1rem;
-    }
-    #contactInfo {
-        line-height: 23px;
-        margin-right: 2.5rem;
-    }
-}
 @media (min-width: 960px) {
     #banner {
         padding: 2rem;

@@ -28,10 +28,6 @@ header {
     background-color: #F6FAFE;
     color: #08232B;
 }
-#social {
-    display: flex;
-    position: relative;
-}
 #logo {
     width: 80px;
 }
@@ -42,6 +38,10 @@ header {
 #headings {
     font-size: .8rem;
     margin: 15px;
+}
+#social {
+    display: flex;
+    position: relative;
 }
 nav button {
     margin: -12px .3rem;

@@ -5,7 +5,7 @@
 }
 #banner {
     display: none;
-    min-width: 300px;
+    min-width: 360px;
     padding: 1.5rem;
     font-size: 1.5rem;
     text-align: center;
@@ -31,6 +31,7 @@ header {
 #logo {
     width: 80px;
     grid-column: 1/2;
+    padding: .5rem;
 }
 #headings {
     font-size: .8rem;
@@ -42,7 +43,7 @@ header {
 }
 .logos{
     width: 35px;
-    margin: .3rem;
+    margin: .2rem;
 }
 #menu {
     grid-column: 4/5;
@@ -61,15 +62,16 @@ nav ul {
 }
 nav ul li a {
     display: block;
-    padding: 2vw;
+    padding: .8rem 2vw;
     text-decoration: none;
     text-align: center;
     color: #08232B;
-    border: 1px solid #08232B;
+    border-top: 1px solid #08232B;
+    background-color: #E8F3FE;
 }
 nav ul li a:hover {
-    background-color: #08232B;
-    color: #F6FAFE;
+    background-color: #10354B;
+    color: #E8F3FE;
 }
 nav ul {display: none;}
 nav ul.open {display: block;}

@@ -3,15 +3,11 @@
         padding: 1.75rem;
         font-size: 1.75rem;
     }
-    header {
-        display: grid;
-        grid-template-columns: .75fx 2fx 1.5fx 1fx;
-    }
     #logo {
-        width: 120px;
+        width: 90px;
     }
     #headings {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .logos{
         width: 45px;
@@ -27,6 +23,7 @@
         grid-template-rows: 1fr auto;
         padding-bottom: .5rem;
         align-items: center;
+        font-size: .9rem;
     }
     #logo_footer {
         width: 100px;
@@ -37,7 +34,7 @@
     #address {
         grid-column: 2 / 3;
         text-align: left;
-        margin-left: .5rem;
+        margin-left: 1rem;
     }
     #contactInfo {
         line-height: 18px;
@@ -49,7 +46,8 @@
         grid-column: 1 / 4;
         display: grid;
         grid-template-columns: 2fr .9fr 1.1fr 2.5fr;
-        font-size: 10px;
+        font-size: 15px;
+        padding: 1rem 0;
     }
     #myInfo p:nth-child(1){
         grid-template-columns: 1/2;
