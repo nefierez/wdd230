@@ -87,4 +87,8 @@
         line-height: 24px;
         margin-right: 5rem;
     }
+    #myInfo {
+        font-size: 18px;
+        padding: 1.5rem 0;
+    }
 }
