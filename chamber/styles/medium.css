@@ -41,7 +41,7 @@
         line-height: 18px;
         grid-column: 3 / 4;
         text-align: right;
-        margin-right: 1rem;
+        margin-right: 2.5rem;
     }
     #myInfo {
         grid-column: 1 / 4;
