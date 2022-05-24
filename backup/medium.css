@@ -1,25 +1,48 @@
-@media (min-width: 700px) {
+/* @media (min-width: 420px) {
+    nav button {
+        background-color: transparent;
+        border: none;
+        font-size: 2.1rem;
+        position: absolute;
+        top: 42px;
+        right: .5rem;
+    }
+    #social {
+        width: 52px;
+        margin: .2rem;
+        position: absolute;
+        top: 30px;
+        right: 80px;
+    }
+} */
+@media (min-width: 520px) {
+    /* #headings {
+        font-size: 1rem;
+        margin: 15px;
+    }
+    nav button {
+        background-color: transparent;
+        border: none;
+        font-size: 2.5rem;
+        position: absolute;
+        top: 38px;
+        right: .5rem;
+    }
+    #social {
+        margin: .1rem 1.5rem;
+        position: absolute;
+        top: 28px;
+        right: 90px;
+    }
+    .logos {
+        width: 45px;
+    }
+    #twitter {
+        margin-right: .5rem;
+    } */
     #banner {
         padding: 1.75rem;
         font-size: 1.75rem;
-    }
-    header {
-        display: grid;
-        grid-template-columns: .75fx 2fx 1.5fx 1fx;
-    }
-    #logo {
-        width: 120px;
-    }
-    #headings {
-        font-size: 1.5rem;
-    }
-    .logos{
-        width: 45px;
-        margin: .5rem;
-    }
-    nav button {
-        margin-top: -.6rem;
-        font-size: 2.5rem;
     }
     footer {
         display: grid;
@@ -67,7 +90,8 @@
         grid-template-columns: 4/5;
         text-align: left;
     }
-
+}
+@media (min-width: 700px) {
     main {
         grid-template-columns: 1fr .9fr 1.1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
