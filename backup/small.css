@@ -7,22 +7,21 @@
     display: none;
     min-width: 360px;
     padding: 1.5rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: center;
     background-color: #08232B;
     color: #F6FAFE;
 }
 #close {
     background-color: transparent;
-    color: red;
     border: none;
-    padding-left: 2rem;
     font-size: 1.5rem;
+    padding-left: .5rem;
 }
 header {
     min-width: 360px;
-    display: flex;
-    padding: .5rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1.5fr 1fr;
     align-items: center;
     text-align: center;
     background-color: #F6FAFE;
@@ -30,41 +29,49 @@ header {
 }
 #logo {
     width: 80px;
+    grid-column: 1/2;
+    padding: .5rem;
+    margin-left: .5rem;
+}
+#headings {
+    font-size: .8rem;
+    margin: 12px;
+    grid-column: 2/3;
+}
+#social {
+    grid-column: 3/4;
 }
 .logos{
     width: 35px;
     margin: .2rem;
 }
-#headings {
-    font-size: .8rem;
-    margin: 15px;
-}
-#social {
-    display: flex;
-    position: relative;
-}
-nav button {
-    margin: -12px .3rem;
+#menu {
+    grid-column: 4/5;
+    margin-left: .8rem;
+    margin-top: -.6rem;
     background-color: transparent;
     border: none;
     font-size: 2rem;
 }
+nav {
+    grid-column: 1/5;
+}
 nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+
 }
 nav ul li a {
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
-    text-align: right;
+    text-align: center;
     color: #08232B;
     border-top: 1px solid #08232B;
+    background-color: #E8F3FE;
 }
 nav ul li a:hover {
-    background-color: #08232B;
-    color: #F6FAFE;
+    background-color: #5982A4;
+    color: #E8F3FE;
 }
 nav ul {display: none;}
 nav ul.open {display: block;}
@@ -114,6 +121,7 @@ footer {
 }
 main {
     display: grid;
+    margin: 1rem;
 }
 .placeholder {
     border: solid 1px gray;

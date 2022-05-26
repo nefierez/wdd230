@@ -1,68 +1,40 @@
-@media (min-width: 700px) {
-    header {
-        padding: .75rem;
-    }
-    #logo {
-        width: 90px;
-    }
-    #headings {
-        font-size: 1rem;
-    }
-    nav {
-        margin-left: 1.5rem;
-    }
-    #social {
-        top: 40px;
-        right: 85px;
-    }
-    nav button {
-        top: 50px;
-    }
-    footer {
-        font-size: 1rem;
-    }
-    #address {
-        margin-left: 1rem;
-    }
-    #myInfo {
-        font-size: .9rem;
-        padding: 1rem;
-    }
-    #contactInfo {
-        line-height: 23px;
-        margin-right: 2.5rem;
-    }
-}
-@media (min-width: 960px) {
+@media (min-width: 1000px) {
     #banner {
         padding: 2rem;
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     header {
-        padding: 1rem;
+        display: flex;
         font-size: 1.2rem;
+        align-items: center;
+        text-align: center;
     }
     #logo {
-        width: 100px;
+        width: 120px;
+        padding-left: 1rem;
+        padding-right: 0;
     }
     #headings {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     nav {
-        margin-left: 1.5rem;
+        margin: 0 2rem;
     }
-    nav button {
+    #menu {
         display: none;
     }
     nav ul#navigation {
         display: flex;
+        order: 3;
     }
     nav ul li a {
         border: none;
+        background-color: transparent;
     }
     #social {
-        top: 48px;
-        right: 40px;
+        order: 2;
+        padding: 0 .9rem;
+        position: relative;
     }
     main {
         display: grid;
@@ -108,5 +80,15 @@
     .spotlights :nth-child(3) {
         display: block;
     }
-
+    footer {
+        font-size: 1.1rem;
+    }
+    #contactInfo {
+        line-height: 24px;
+        margin-right: 5rem;
+    }
+    #myInfo {
+        font-size: 18px;
+        padding: 1.5rem 0;
+    }
 }
