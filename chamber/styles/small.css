@@ -17,6 +17,7 @@
     border: none;
     font-size: 1.5rem;
     padding-left: .5rem;
+    cursor: pointer;
 }
 header {
     min-width: 360px;
@@ -127,14 +128,31 @@ main {
     border: solid 1px gray;
     background-color: lightgray;
     margin: .5rem .2rem 0;
-    padding: 1.2rem;
-    height: 220px;
     font-size: 1.2rem;
 }
+.hero {
+    position: relative;
+}
+.hero-title {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #F6FAFE;
+    padding: .6rem;
+    border-radius: .4rem;
+}
+.hero-button{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #F6FAFE;
+    background-color: #08232B;
+    cursor: pointer;
+    padding: .6rem;
+    border-radius: .4rem;
+}
 .light-container {
-    height: 400px;
     display: grid;
-    grid-template-rows: 1fr 1fr;
 }
 .spotlights :nth-child(3) {
     display: none;
@@ -145,4 +163,7 @@ main {
 }
 .join {
     display: none;
+}
+picture img {    
+    width: 100%;
 }
