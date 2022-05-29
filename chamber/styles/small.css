@@ -159,11 +159,15 @@ main {
 }
 .spot1, .spot2, .spot3 {
     border: solid 1px gray;
-    padding: .8rem;
+    padding: .3rem;
+    text-align: center;
 }
 .join {
     display: none;
 }
 picture img {    
     width: 100%;
+}
+.try {
+    width: 40%;
 }
