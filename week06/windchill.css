@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    background-color: #F6FAFE;
+    color: #08232B;
+    border: 1px solid #08232B;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 4rem;
+    width: 400px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+#weatherInfo {
+    border-top: 1px double #08232B;
+    padding-top: 1rem;
+    margin-top: .5rem;
+}
+p {
+    height: 2rem;
+}
