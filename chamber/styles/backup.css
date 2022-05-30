@@ -76,3 +76,15 @@ nav ul.open {display: block;}
 #menu.open span:nth-child(2) {display: block;}
 
 
+.section-text-important {
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding-bottom: .5rem;
+}
+.section-text-bottom {
+    margin: .8rem;
+    padding-bottom: .8rem;
+    border-bottom: 1px solid #08232B;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
