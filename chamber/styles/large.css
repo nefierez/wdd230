@@ -8,6 +8,7 @@
         font-size: 1.2rem;
         align-items: center;
         text-align: center;
+        justify-content: space-evenly;
     }
     #logo {
         width: 120px;

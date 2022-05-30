@@ -162,9 +162,10 @@ h3, h4 {
 .spotlights :nth-child(3) {
     display: none;
 }
-.spot1, .spot2, .spot3 {
+.spots {
     border: solid 1px gray;
-    text-align: center;
+    margin: .3rem;
+    padding-bottom: .5rem;
 }
 .join {
     display: none;
@@ -174,4 +175,19 @@ picture img {
 }
 .try {
     width: 40%;
+}
+.section-text {
+    margin: 1rem;
+}
+.section-text-important {
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding-bottom: .5rem;
+}
+.section-text-bottom {
+    margin: .8rem;
+    padding-bottom: .8rem;
+    border-bottom: 1px solid #08232B;
+    font-size: 1.1rem;
+    font-weight: bold;
 }
