@@ -159,7 +159,7 @@ h3, h4 {
 .light-container {
     display: grid;
 }
-.spotlights :nth-child(3) {
+.spot3 {
     display: none;
 }
 .spots {
