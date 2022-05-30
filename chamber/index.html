@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="styles/large.css">
     <title>Guatemala Chamber of Commerce | Home</title>
 </head>
-<body>
+<body onload="onLoad();">
     <div id="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m. <button id="close">❌</button></div>
     <header>
         <picture>
@@ -27,6 +27,7 @@
         <button id="menu"><span>&#9776;</span><span>X</span></button>
         <nav>
             <ul id="navigation">
+                <li><a id="homePage" href="index.html">Home</a></li>
                 <li><a href="#">Discover</a></li>
                 <li><a href="#">Directory</a></li>
                 <li><a href="#">Join</a></li>
@@ -51,12 +52,29 @@
         </div>
         <div class="placeholder event">
             <h3>Ribbon Cutting</h3>
+            <section class="section-text">
+                <p class="section-text-important">The Diamond Shack</p>
+                <p>Join us for the grand opening of The Diamond Shack, Thursday at 1:00 p.m.</p>
+                <span>More info...</span>
+            </section>
         </div>
         <div class="placeholder weather">
             <h3>Weather</h3>
+            <picture>
+                <source srcset="images/spotlight2-medium.jpg" media="(min-width: 700px) and (max-wodth:999px">
+                <img class="try" src="images/spotlight2-small.jpg" alt="Tutoring Services">
+            </picture>
+            <section id="weatherInfo">
+                <p class="section-text-bottom">Currently: <span id="temperature"></span>&#176;F</p>
+                <p section-text-footer>Wind Speed: <span id="speed"></span> mph</p>
+                <p section-text-footer>WindChill: <span id="windChill"></span></p>
+            </section>
         </div>
         <div class="placeholder news">
             <h3>News Release</h3>
+            <section class="section-text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi reiciendis officiis aperiam quaerat commodi quas, nobis saepe, beatae accusantium et illo numquam accusamus. Deserunt beatae quas, facilis nulla illo laudantium nobis itaque corporis. Repudiandae voluptatem molestiae odit nihil, eligendi eos nobis atque vitae corporis quis quidem sed cum autem debitis.</p>
+            </section>
         </div>
         <div class="placeholder spotlights light-container">
             <section class="spot1 spots">
@@ -65,6 +83,11 @@
                     <source srcset="images/spotlight2-medium.jpg" media="(min-width: 700px) and (max-wodth:999px">
                     <img class="try" src="images/spotlight2-small.jpg" alt="Tutoring Services">
                 </picture>
+                <section>
+                    <p class="section-text-bottom">We get it there for you!</p>
+                    <span class="section-text-footer">hello@thankfultransport.com</span>
+                    <span class="section-text-footer">+999-9999-9999 | website</span>
+                </section>
             </section>
             <section class="spot2 spots">
                 <h4>Code Primera</h4>
@@ -72,13 +95,23 @@
                     <source srcset="images/spotlight2-medium.jpg" media="(min-width: 700px) and (max-wodth:999px">
                     <img class="try" src="images/spotlight2-small.jpg" alt="Tutoring Services">
                 </picture>
+                <section>
+                    <p class="section-text-bottom">An after school coding instructional program</p>
+                    <span class="section-text-footer">contact@codeprimera.com</span>
+                    <span class="section-text-footer">+999-9999-9999 | website</span>
+                </section>
             </section>
             <section class="spot3 spots">
+                <h4>Build a Treefort</h4>
                 <picture>
-                    <h4>Build a Treefort</h4>
                     <source srcset="images/spotlight2-medium.jpg" media="(min-width: 700px) and (max-wodth:999px">
                     <img class="try" src="images/spotlight2-small.jpg" alt="Tutoring Services">
                 </picture>
+                <section>
+                    <p class="section-text-bottom">Over 1000 Plans!</p>
+                    <span class="section-text-footer">builda@Treefort.com</span>
+                    <span class="section-text-footer">+999-9999-9999 | website</span>
+                </section>
             </section>
         </div>
         <div class="placeholder join">
