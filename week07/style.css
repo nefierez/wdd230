@@ -21,3 +21,12 @@ h1 {
 picture {
     margin-bottom: 1.5rem;
 }
+
+img[data-src] {
+    filter: blur(0.3em);
+  }
+  
+img {
+    filter: blur(0em);
+    transition: filter 0.8s;
+  }
