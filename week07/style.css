@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    color: #F6FAFE;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    background-image: linear-gradient(#08232B, #cee5fc, #08232B);
+}
+
+h1 {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+picture {
+    margin-bottom: 1.5rem;
+}
