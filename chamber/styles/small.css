@@ -191,3 +191,18 @@ picture img {
     font-size: 1.1rem;
     font-weight: bold;
 }
+
+
+
+
+#discoverPage {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.discoverPictures {
+    width: 90%;
+    max-width: 400px;
+    margin: 1.5rem;
+}

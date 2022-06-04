@@ -1,23 +1,22 @@
-/*
-<header>
-        <picture>
-            <img id="logo" src="images/logo_small.png" alt="Guatemala Chamber of Commerce Logo">
-        </picture>
-        <section id="headings">
-            <h1>Guatemala Chamber <br> of Commerce</h1>
-        </section>
-        <div id="social">
-            <a href="http://twitter.com" target="_blank"><img id="twitter" class="logos" src="images/Twitter_logo.png" alt="Twitter Logo"></a>
-            <a href="http://linkedin.com" target="_blank"><img id="linkedIn" class="logos" src="images/LinkedIn_logo.png" alt="LinkedIn Logo"></a>
-        </div>
-        <nav>
-            <button id="menu"><span>&#9776;</span><span>X</span></button>
-            <ul id="navigation">
-                <li><a href="#">Discover</a></li>
-                <li><a href="#">Directory</a></li>
-                <li><a href="#">Join</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-*/
+let d = new Date().getDay();
+
+const banner = document.querySelector("#banner");
+if (d === 1 || d === 2) {
+    banner.style.display = "block";
+}
+
+const close = document.querySelector("#close");
+
+close.addEventListener("click", () => {
+    banner.style.display = "none";
+});
+
+
+/*const date = new Date();
+const dayName = date.toLocaleString('en', { weekday: 'long'});
+const dayNumber = date.toLocaleString('en', { day: 'numeric' });
+const month = date.toLocaleString('en', { month: 'long'});
+const year = date.getFullYear();
+
+const fullDate = `Today is ${dayName}, ${month} ${dayNumber}, ${year}`;
+document.querySelector("#date").innerHTML = fullDate;*/

@@ -90,4 +90,17 @@
     .spot1, .spot2 {
         grid-row: 1/3;
     }
+
+
+
+    
+    
+    img[data-src] {
+        filter: blur(.5em);
+      }
+      
+    img {
+        filter: blur(0em);
+        transition: filter 2s;
+      }
 }
