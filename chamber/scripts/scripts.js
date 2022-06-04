@@ -1,18 +1,3 @@
-let d = new Date().getDay();
-
-const banner = document.querySelector("#banner");
-if (d === 1 || d === 2) {
-    banner.style.display = "block";
-}
-
-const close = document.querySelector("#close");
-
-close.addEventListener("click", () => {
-    banner.style.display = "none";
-});
-
-/* ===========================================================================================*/
-
 function toggleMenu() {
     document.querySelector("#navigation").classList.toggle("open");
     document.querySelector("#menu").classList.toggle("open");
@@ -20,13 +5,21 @@ function toggleMenu() {
 const x = document.querySelector("#menu");
 x.onclick = toggleMenu;
 
+/* ===========================================================================================*/
 
-const date = new Date().toDateString();
-document.querySelector("#date").innerHTML = date;
+const date = new Date();
+const dayName = date.toLocaleString('en', { weekday: 'long'});
+const dayNumber = date.toLocaleString('en', { day: 'numeric' });
+const month = date.toLocaleString('en', { month: 'long'});
+const year = date.getFullYear();
+
+const fullDate = `Today is ${dayName}, ${month} ${dayNumber}, ${year}`;
+document.querySelector("#date").innerHTML = fullDate;
+
+/* ===========================================================================================*/
 
 document.querySelector("#lastModified").innerHTML = document.lastModified;
 document.querySelector("#year").innerHTML = new Date().getFullYear();
-
 
 /* ===========================================================================================*/
 
@@ -53,3 +46,6 @@ const setWeatherData = data => {
 const onLoad = () => {
   navigator.geolocation.getCurrentPosition(fetchData);
 }
+
+/* ===========================================================================================*/
+
