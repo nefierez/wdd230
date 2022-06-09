@@ -3,6 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merienda One', cursive;
+}
+p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
+    color: #10354B;
+}
 #banner {
     display: none;
     min-width: 360px;
@@ -200,14 +208,25 @@ picture img {
 	flex-direction: column;
     text-align: center;
 }
-
+#discoverTitle {
+    padding: 1rem;
+    margin: 1rem;
+}
 .discoverPictures {
     padding: 1rem 2rem 1rem 2rem;
 }
-
+.picture {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .discoverInfo {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0 2rem 2rem 2rem;
+    margin: 0 2rem 2rem 2rem;
+}
+
+.discoverTitle {
+    padding-bottom: 1rem;
 }

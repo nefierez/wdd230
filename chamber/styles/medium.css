@@ -106,7 +106,7 @@
 
 
 
-      .discoverSections {
+    .discoverSections {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
@@ -115,7 +115,10 @@
         padding: 1rem 1rem 2rem 2rem;
     }
     .discoverInfo {
-        padding: 1rem 2rem 2rem 1rem;
+        margin: 1rem 2rem 2rem 1rem;
+    }
+    .discoverPictures:hover {
+        box-shadow: 0 0 40px #08232B;
     }
 }
 
