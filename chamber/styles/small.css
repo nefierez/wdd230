@@ -195,14 +195,19 @@ picture img {
 
 
 
-#discoverPage {
+#discoverMain {
     display: flex;
-    flex-direction: column;
+	flex-direction: column;
     text-align: center;
 }
 
 .discoverPictures {
-    width: 90%;
-    max-width: 400px;
-    margin: 1.5rem;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+.discoverInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 2rem 2rem 2rem;
 }
