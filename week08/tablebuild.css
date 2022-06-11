@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+table {
+    margin: 1rem auto;
+    border: 1px solid #08232B;
+	border-collapse: collapse;
+    font-family: 'Ubuntu', sans-serif;
+}
+caption {
+    padding: .3rem;
+    caption-side: bottom;
+}
+
+.top-bottom {
+    background-color: #08232B;
+    color: white;
+}
+
+th, #highlighter {
+    background-color: #5982A4;
+    color: #F6FAFE;
+}
+
+th, td {
+    padding: .5rem 1.5rem;
+    border: 1px solid #08232B;
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #E8F3FE;
+}
