@@ -45,6 +45,9 @@
     </section>
     <main>
         <form action="thankyou.html" method="get">
+            <div id="joinTitle">
+                <h1>Join the Guatemala Chamber of Commerce</h1>
+            </div>
             <fieldset>
                 <legend>Your Information</legend>
                 <label class="formInfo">First Name* <input type="text" name="fname" required></label>
@@ -53,7 +56,6 @@
                 <label class="formInfo">Email* <input type="email" name="email" placeholder="guatemala@chamberofcommerce.com" required></label>
                 <label class="formInfo">Phone* <input type="tel" name="phone" placeholder="1230006280" required></label>
                 <label class="formInfo">Business Name* <input type="text" name="businessName" required></label>
-                <label class="formInfo">Business Description <textarea name="businessDescription" cols="30" rows="10"></textarea></label>
             </fieldset>
             <fieldset>
                 <legend>Membership Plans</legend>
@@ -63,7 +65,10 @@
                 <label class="formMembership"><input type="radio" name="membership" value="gold">Gold Membership</label>
                 <div class="formInfo">*Memberships have increasing costs as well as increased benefits per level like trainings, event discounts, etc.</div>
             </fieldset>
-            <input type="submit" value="Join the Guatemala Chamber of Commerce" class="submitBtn">
+            <div>
+                <label class="formInfo">Business Description <textarea id="textarea" name="businessDescription" cols="30" rows="10"></textarea></label>
+            </div>
+            <input type="submit" value="Join the Chamber" class="submitBtn">
         </form>
     </main>
     <footer>

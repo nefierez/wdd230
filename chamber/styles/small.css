@@ -232,9 +232,17 @@ picture img {
 }
 
 /*----------- Join Page --------------*/
-
-form fieldset {
-    margin: 2rem 0;
+form {
+    max-width: 600px;
+    margin: auto;
+}
+#joinTitle {
+    text-align: center;
+    color: #08232B;
+    font-size: 1.2rem;
+}
+form fieldset, #textarea {
+    margin: 1rem auto;
     border: 1px solid #445BA9;
     border-radius: 10px;
     padding: .5rem 2%;
