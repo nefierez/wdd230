@@ -96,11 +96,16 @@ nav ul.open {display: block;}
 #menu.open span:nth-child(2) {display: block;}
 
 #date {
-    display: block;
     text-align: center;
-    font-weight: 400;
     background-color: #08232B;
     color: #F6FAFE;
+    padding: .7rem;
+}
+#visits {
+    text-align: center;
+    background-color: #E8F3FE;
+    color: #08232B;
+    border-bottom: 1px solid #08232B;
     padding: .7rem;
 }
 body {
@@ -123,7 +128,7 @@ footer {
 #contactInfo a {
     color: #08232B;
 }
-#myInfo{
+#myInfo, #myInfo p {
     background-color: #08232B;
     color: #F6FAFE;
     padding-top: .5rem;
@@ -203,7 +208,7 @@ picture img {
 
 
 
-#discoverMain {
+#discoverMain, #joinMain {
     display: flex;
 	flex-direction: column;
     text-align: center;
@@ -215,6 +220,7 @@ picture img {
 .discoverPictures {
     padding: 1rem 2rem 1rem 2rem;
 }
+
 .picture {
     display: flex;
     flex-direction: column;
@@ -232,68 +238,71 @@ picture img {
 }
 
 /*----------- Join Page --------------*/
-form {
+#joinForm {
     max-width: 600px;
-    margin: auto;
-}
-#joinTitle {
-    text-align: center;
-    color: #08232B;
-    font-size: 1.2rem;
-}
-form fieldset, #textarea {
-    margin: 1rem auto;
-    border: 1px solid #445BA9;
+    margin: 0 2.5rem;
+    border: 1px solid #08232B;
     border-radius: 10px;
+    text-align: left;
+}
+
+form fieldset {
+    border: none;
+    border-top: 1px solid #08232B;
+    margin: 1rem;
     padding: .5rem 2%;
 }
 
 form legend {
-    color: #445BA9;
+    color: #08232B;
     margin: 0 1rem;
     padding: 0 .5rem;
 }
 
-form label.formInfo, form div {
+form label.formInfo {
     display: block;
     padding-top: 1rem;
-    color: #9C2C13;
+    color: #08232B;
     font-size: .8rem;
 }
 
 form label.formInfo input, form label.formInfo select {
     display: block;
     font-size: 1rem;
-    border: 1px solid #999;
+    border: 1px solid #08232B;
     border-radius: 4px;
     padding: .75rem;
-    color: #555;
+    color: #E8F3FE;
     width: 100%;
     max-width: 20rem;
-    background-color: rgba(0, 0, 0, .1);
+    background-color: #F6FAFE;
 }
 
 form label.formMembership {
     display: block;
     padding: .75rem 0;
-    color: #555;
+    color: #08232B;
 }
-
+#submitDiv {
+    margin: 1rem;
+    padding: .5rem 2%;
+}
 form input.submitBtn {
     border: none;
-    background-color: #9C2C13;
-    color: white;
+    background-color: #08232B;
+    color: #E8F3FE;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
-    margin: 0 0 2rem 2%;
-    width: 96%;
+    width: 100%;
     max-width: 20rem;
+    cursor: pointer;
 }
 
-form label.formInfo input:required {
+form label.formInfo input:required:invalid {
     border-left: 6px solid red;
 }
 
 form label.formInfo input:required:valid {
     border-left: 6px solid green;
 }
+

@@ -67,7 +67,7 @@
         text-align: left;
     }
 
-    main {
+    #mainIndex {
         grid-template-columns: 1fr .9fr 1.1fr;
     }
     .hero, .news, .spotlights, .join {
@@ -119,6 +119,11 @@
     }
     .discoverPictures:hover {
         box-shadow: 0 0 40px #08232B;
+    }
+
+
+    #joinForm {
+        margin: 0 auto;
     }
 }
 
