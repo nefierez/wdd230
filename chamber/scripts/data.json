@@ -1,13 +1,13 @@
 {
     "companies": [
         {
-            "logo": "",
-            "name": "",
-            "phone": "",
-            "email": "",
-            "url": "",
-            "address": "",
-            "membership": ""
+            "logo": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg",
+            "name": "test",
+            "phone": "52616283",
+            "email": "nefi@hotmail.com",
+            "url": "https://lds.org",
+            "address": "Guatemala",
+            "membership": "Gold"
         },
         {
             "logo": "",
