@@ -21,7 +21,7 @@ function displayProphets(prophet) {
     birth.textContent = `${prophet.name} was born on ${prophet.birthdate} in ${prophet.birthplace}.`;
     children.textContent = `He was father of ${prophet.numofchildren} children.`;
     portrait.setAttribute("src", prophet.imageurl);
-    portrait.setAttribute("alt", `Portrait of ${prophet.name} ${prophet.lastname}`);
+    portrait.setAttribute("alt", `Portrait of ${prophet.name} ${prophet.lastname} - ${prophet.order} Latter-day President`);
     portrait.setAttribute("loading", "lazy");
 
     card.appendChild(name);

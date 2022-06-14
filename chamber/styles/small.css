@@ -208,12 +208,12 @@ picture img {
 
 
 
-#discoverMain, #joinMain {
+#discoverMain, #joinMain, #thankyouMain, #directoryMain {
     display: flex;
 	flex-direction: column;
     text-align: center;
 }
-#discoverTitle {
+#discoverTitle, #thankyouTitle, #directoryTitle {
     padding: 1rem;
     margin: 1rem;
 }
