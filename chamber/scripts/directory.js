@@ -25,7 +25,7 @@ function displayCompanies(company) {
     address.textContent = `${company.address}`;
     phone.textContent = `${company.phone}`;
     email.textContent = `${company.email}`;
-    website.textContent = `${company.url}`;
+    website.innerHTML = `<a href="${company.url}" target="_blank">📌</a>`;
     membership.textContent = `${company.membership}`;
     logo.setAttribute('src', company.logo);
     logo.setAttribute('alt', `${company.name}'s logo`);
