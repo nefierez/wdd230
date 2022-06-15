@@ -306,6 +306,52 @@ form label.formInfo input:required:valid {
     border-left: 6px solid green;
 }
 
-.infoCards h2 {
-    background-color: antiquewhite;
+
+
+
+
+
+
+
+.infoCards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    margin: 1rem 2rem;
+}
+
+.infoCards section {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #777;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    background-color: #F6FAFE;
+}
+
+.infoCards section h2 {
+    color: #08232B;
+    border-bottom: 1px solid #08232B;
+    margin: 1rem;
+}
+
+.infoCards section p {
+    padding-bottom: .5rem;
+    font-size: 1.2rem;
+}
+
+.infoCards img {
+    max-width: 220px;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #777;
+}
+.infoCards section:hover {
+    box-shadow: 0 0 20px #10354B;
+    transition: transform .1s;
+    transform: rotate(1deg);
 }
