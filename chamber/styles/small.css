@@ -306,3 +306,6 @@ form label.formInfo input:required:valid {
     border-left: 6px solid green;
 }
 
+.infoCards h2 {
+    background-color: antiquewhite;
+}
