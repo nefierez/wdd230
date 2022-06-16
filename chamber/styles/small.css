@@ -321,9 +321,10 @@ form label.formInfo input:required:valid {
 .infoCards-list {
     display: flex;
     flex-direction: column;
+    margin: 0 2rem 2rem 2rem;
 }
 
-.card-gridView {
+.infoCards-Grid section {
     margin: 1rem;
     padding: 1rem;
     border: 1px solid gray;
@@ -336,13 +337,13 @@ form label.formInfo input:required:valid {
     background-color: #F6FAFE;
 }
 
-.card-gridView h2 {
+.infoCards-Grid section h2 {
     color: #08232B;
     border-bottom: 1px solid #08232B;
     margin: 1rem;
 }
 
-.card-gridView p {
+.infoCards-Grid section p {
     padding-bottom: .5rem;
     font-size: 1.2rem;
 }
@@ -354,18 +355,33 @@ form label.formInfo input:required:valid {
     border-radius: 10px;
     box-shadow: 0 0 15px #777;
 }
-.card-gridView:hover {
+.infoCards-Grid section:hover {
     box-shadow: 0 0 20px #10354B;
     transition: transform .1s;
     transform: rotate(1deg);
 }
 
-.card-listView {
-    display: block;
-    text-align: center;
-    padding: 0;
-    margin: 0;   
+
+.infoCards-list section {
+    margin: 0;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
 }
+
+.infoCards-list section:nth-child(even) {
+    background-color: #E8F3FE;
+}
+
+.infoCards-list section h2 {
+    border-bottom: none;
+    margin: 0;
+}
+.infoCards-list section p {
+    padding-bottom: 0;
+    margin: auto 1rem;
+}
+
 .infoCards-list img, .email, .membership {
     display: none;
 }

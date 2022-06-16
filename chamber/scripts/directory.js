@@ -5,18 +5,11 @@ const display = document.querySelector(".infoCards-Grid");
 gridBtn.addEventListener("click", () => {
 	// example using arrow function
 	display.classList.remove("infoCards-list");
-    let changeToGridView = document.querySelector(".card-listView");
-    changeToGridView.classList.remove("card-listView");
-    changeToGridView.classList.add("card-gridView")
 });
 
 listBtn.addEventListener("click", () => {
 	display.classList.add("infoCards-list");
-    let changeToListView = document.querySelector(".card-gridView");
-    changeToListView.classList.remove("card-gridView")
-    changeToListView.classList.add("card-listView");
 })
-
 
 /* ===========================================================================================*/
 
@@ -35,24 +28,29 @@ fetch(URLrequest)
 
 function displayCompanies(company) {
     let card = document.createElement("section");
+    let logo = document.createElement("img");
     let name = document.createElement("h2");
     let address = document.createElement("p");
     let phone = document.createElement("p");
     let email = document.createElement("p");
     let website = document.createElement("p");
     let membership = document.createElement("p");
-    let logo = document.createElement("img");
 
+    logo.setAttribute('src', company.logo);
+    logo.setAttribute('alt', `${company.name}'s logo`);
     name.textContent = `${company.name}`;
     address.textContent = `${company.address}`;
     phone.textContent = `${company.phone}`;
     email.textContent = `${company.email}`;
     website.innerHTML = `<a href="${company.url}" target="_blank">Commerce Website</a>`;
     membership.textContent = `${company.membership}`;
-    logo.setAttribute('src', company.logo);
-    logo.setAttribute('alt', `${company.name}'s logo`);
-    card.classList.add("card-gridView");
+
+    logo.classList.add("logo");
+    name.classList.add("name");
+    address.classList.add("address");
+    phone.classList.add("phone");
     email.classList.add("email");
+    website.classList.add("website");
     membership.classList.add("membership");
 
     card.appendChild(name);
@@ -64,6 +62,3 @@ function displayCompanies(company) {
     card.appendChild(logo);
     infoCards.appendChild(card);
 }
-/*
-function(displayCompanies)
-*/

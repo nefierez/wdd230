@@ -125,8 +125,18 @@
     #joinForm {
         margin: 0 auto;
     }
+
+
+
+
+    .infoCards-list section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        text-align: center;
+    }
 }
 
 
 /****************************************/
 
+    
