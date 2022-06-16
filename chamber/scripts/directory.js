@@ -1,5 +1,21 @@
+const gridBtn = document.querySelector("#grid");
+const listBtn = document.querySelector("#list");
+const display = document.querySelector(".infoCards-Grid");
+
+gridBtn.addEventListener("click", () => {
+	// example using arrow function
+	display.classList.remove("infoCards-list");
+});
+
+listBtn.addEventListener("click", () => {
+	display.classList.add("infoCards-list");
+})
+
+
+/* ===========================================================================================*/
+
 const URLrequest = 'https://nefierez.github.io/wdd230/chamber/scripts/data.json';
-const infoCards = document.querySelector(".infoCards");
+const infoCards = document.querySelector(".infoCards-Grid");
 
 fetch(URLrequest)
 .then(function (response) {
@@ -29,6 +45,7 @@ function displayCompanies(company) {
     membership.textContent = `${company.membership}`;
     logo.setAttribute('src', company.logo);
     logo.setAttribute('alt', `${company.name}'s logo`);
+    card.classList.add("grid")
 
     card.appendChild(name);
     card.appendChild(address);
