@@ -5,10 +5,16 @@ const display = document.querySelector(".infoCards-Grid");
 gridBtn.addEventListener("click", () => {
 	// example using arrow function
 	display.classList.remove("infoCards-list");
+    let changeToGridView = document.querySelector(".card-listView");
+    changeToGridView.classList.remove("card-listView");
+    changeToGridView.classList.add("card-gridView")
 });
 
 listBtn.addEventListener("click", () => {
 	display.classList.add("infoCards-list");
+    let changeToListView = document.querySelector(".card-gridView");
+    changeToListView.classList.remove("card-gridView")
+    changeToListView.classList.add("card-listView");
 })
 
 
@@ -45,7 +51,9 @@ function displayCompanies(company) {
     membership.textContent = `${company.membership}`;
     logo.setAttribute('src', company.logo);
     logo.setAttribute('alt', `${company.name}'s logo`);
-    card.classList.add("grid")
+    card.classList.add("card-gridView");
+    email.classList.add("email");
+    membership.classList.add("membership");
 
     card.appendChild(name);
     card.appendChild(address);

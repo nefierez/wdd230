@@ -323,7 +323,7 @@ form label.formInfo input:required:valid {
     flex-direction: column;
 }
 
-.infoCards-Grid section {
+.card-gridView {
     margin: 1rem;
     padding: 1rem;
     border: 1px solid gray;
@@ -336,13 +336,13 @@ form label.formInfo input:required:valid {
     background-color: #F6FAFE;
 }
 
-.infoCards-Grid section h2 {
+.card-gridView h2 {
     color: #08232B;
     border-bottom: 1px solid #08232B;
     margin: 1rem;
 }
 
-.infoCards-Grid section p {
+.card-gridView p {
     padding-bottom: .5rem;
     font-size: 1.2rem;
 }
@@ -354,8 +354,18 @@ form label.formInfo input:required:valid {
     border-radius: 10px;
     box-shadow: 0 0 15px #777;
 }
-.infoCards-Grid section:hover {
+.card-gridView:hover {
     box-shadow: 0 0 20px #10354B;
     transition: transform .1s;
     transform: rotate(1deg);
+}
+
+.card-listView {
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin: 0;   
+}
+.infoCards-list img, .email, .membership {
+    display: none;
 }
