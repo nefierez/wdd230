@@ -281,6 +281,7 @@ form label.formMembership {
     display: block;
     padding: .75rem 0;
     color: #08232B;
+    font-size: 1.2rem;
 }
 #submitDiv {
     margin: 1rem;
@@ -295,6 +296,7 @@ form input.submitBtn {
     width: 100%;
     max-width: 20rem;
     cursor: pointer;
+    font-size: 1.3rem;
 }
 
 form label.formInfo input:required:invalid {
@@ -305,7 +307,13 @@ form label.formInfo input:required:valid {
     border-left: 6px solid green;
 }
 
-
+input[type=radio] {
+    border: 0px;
+    width: 5%;
+    height: 1.5rem;
+    margin-right: .5rem;
+    cursor: pointer;
+}
 
 
 
