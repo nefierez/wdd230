@@ -93,7 +93,7 @@ nav ul.open {display: block;}
 #menu span:nth-child(2) {display:none}
 
 #menu.open span:nth-child(1) {display: none;}
-#menu.open span:nth-child(2) {display: block;}
+#menu.open span:nth-child(2) {display: block; cursor: pointer;}
 
 #date {
     text-align: center;
