@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    padding: 1rem;
+    background-color: #08232B;
+    border-radius: 10px;
+    color: #F6FAFE;
+}
+
+body {
+    margin: 1rem auto;
+    padding: 1rem;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #777;
+    text-align: center;
+    background-color: #F6FAFE;
+    max-width: 600px;
+}
+
+body h2 {
+    color: #08232B;
+    padding: 1rem;
+}
+
+body p {
+    margin-top: 1rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+body img {
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #777;
+}
+
+figcaption {
+    margin-bottom: .5rem;
+}
+
+body:hover {
+    box-shadow: 0 0 20px #10354B;
+    transition: transform .1s;
+    transform: rotate(1deg);
+}
