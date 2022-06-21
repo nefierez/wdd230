@@ -89,7 +89,7 @@ nav ul.open {display: block;}
     display: none;
 }
 
-#menu span:nth-child(1) {display: block;}
+#menu span:nth-child(1) {display: block; cursor: pointer;}
 #menu span:nth-child(2) {display:none}
 
 #menu.open span:nth-child(1) {display: none;}
@@ -311,6 +311,21 @@ form label.formInfo input:required:valid {
 
 
 
+
+#viewButtons {
+    margin: 1rem 2rem 0 3rem;
+    margin-bottom: 0;
+}
+
+.viewButtons {
+    margin: .5rem;
+    margin-bottom: 0;
+    background-color: #F6FAFE;
+    border: 1.5px solid #08232B;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: .2rem;
+}
 
 .infoCards-Grid {
     display: grid;
