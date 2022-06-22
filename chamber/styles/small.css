@@ -218,7 +218,7 @@ picture img {
 }
 #currentTemp {
     margin: auto auto auto 1rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 #weatherIcon {
@@ -235,6 +235,11 @@ picture img {
 .weatherInfo {
     padding: .5rem;
     font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+#sourced {
+    font-size: 1rem;
 }
 
 
