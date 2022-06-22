@@ -11,12 +11,13 @@
     <link rel="stylesheet" href="styles/large.css">
     <script src="scripts/banner.js" defer></script>
     <script src="scripts/scripts.js" defer></script>
+    <script src="scripts/windchill.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Libre+Baskerville&family=Merienda+One&display=swap" rel="stylesheet">
     <title>Guatemala Chamber of Commerce | Home</title>
 </head>
-<body onload="onLoad();">
+<body>
     <div id="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m. <button id="close">❌</button></div>
     <header>
         <picture>
@@ -65,14 +66,14 @@
         </div>
         <div class="placeholder weather">
             <h3>Weather</h3>
-            <picture>
-                <source srcset="images/spotlight2-medium.jpg" media="(min-width: 700px) and (max-wodth:999px">
-                <img class="try" src="images/spotlight2-small.jpg" alt="Tutoring Services">
-            </picture>
             <section id="weatherInfo">
-                <p class="section-text-bottom">Currently: <span id="temperature"></span>&#176;F</p>
-                <p section-text-footer>Wind Speed: <span id="speed"></span> mph</p>
-                <p section-text-footer>WindChill: <span id="windChill"></span></p>
+                <figure id="weatherFigure">
+                    <img src="" alt="" id="weatherIcon">
+                    <p id="currentTemp"><strong><span id="currentTemperature"></span>&deg;F</p></strong>
+                </figure>
+                <figcaption id="weatherDescription"></figcaption>
+                <p class="weatherInfo">Wind Speed: <span id="currentSpeed"></span> mph</p>
+                <p class="weatherInfo">WindChill: <span id="windChill"></span></p>
             </section>
         </div>
         <div class="placeholder news">

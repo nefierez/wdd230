@@ -49,3 +49,10 @@ body:hover {
     transition: transform .1s;
     transform: rotate(1deg);
 }
+
+
+
+figure {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

@@ -207,6 +207,39 @@ picture img {
 
 
 
+#weatherInfo{
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+#weatherFigure {
+    display: grid;
+    grid-template-columns: .9fr 1.1fr;
+}
+#currentTemp {
+    margin: auto auto auto 1rem;
+    font-size: 2rem;
+}
+
+#weatherIcon {
+    width: 70px;
+    margin-left: auto;
+}
+
+#weatherDescription {
+    margin: 1rem 2rem;
+    padding-bottom: .5rem;
+    border-bottom: 1px solid #08232B;
+}
+
+.weatherInfo {
+    padding: .5rem;
+    font-size: 1.2rem;
+}
+
+
+
+
 
 #discoverMain, #joinMain, #thankyouMain, #directoryMain {
     display: flex;

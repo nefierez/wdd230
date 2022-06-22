@@ -13,7 +13,8 @@ fetch(`https://api.openweathermap.org/data/2.5/weather?id=${3598132}&units=imper
     const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
     const description = data.weather[0].description.toUpperCase();
     
-    weatherIcon.setAttribute('src', iconsrc);weatherIcon.setAttribute('alt', description);
+    weatherIcon.setAttribute('src', iconsrc);
+    weatherIcon.setAttribute('alt', description);
     captionDesc.textContent = description;
 });
 
