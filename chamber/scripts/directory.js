@@ -3,7 +3,6 @@ const listBtn = document.querySelector("#list");
 const display = document.querySelector(".infoCards-Grid");
 
 gridBtn.addEventListener("click", () => {
-	// example using arrow function
 	display.classList.remove("infoCards-list");
 });
 
@@ -22,7 +21,6 @@ fetch(URLrequest)
 })
 .then(function (jsonObject) {
     const companies = jsonObject["companies"];
-    console.table(jsonObject);
     companies.forEach(displayCompanies);
 });
 
