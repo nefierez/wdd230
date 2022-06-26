@@ -1,3 +1,4 @@
+/* ===== Display Views =====*/
 const gridBtn = document.querySelector("#grid");
 const listBtn = document.querySelector("#list");
 const display = document.querySelector(".infoCards-Grid");
@@ -9,8 +10,6 @@ gridBtn.addEventListener("click", () => {
 listBtn.addEventListener("click", () => {
 	display.classList.add("infoCards-list");
 })
-
-/* ===========================================================================================*/
 
 const URLrequest = 'https://nefierez.github.io/wdd230/chamber/scripts/data.json';
 const infoCards = document.querySelector(".infoCards-Grid");
