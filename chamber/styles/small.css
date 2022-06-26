@@ -1,3 +1,11 @@
+:root {
+    --color1: #08232B;
+    --color2: #F6FAFE;
+    --color3: #5982A4;
+    --color4: #77b3d4; 
+    --color5: #E8F3FE;
+    --color6: #10354B;
+}
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +21,6 @@ p {
 }
 #banner {
     display: none;
-    min-width: 360px;
     padding: 1.5rem;
     font-size: 1.2rem;
     text-align: center;
@@ -28,7 +35,6 @@ p {
     cursor: pointer;
 }
 header {
-    min-width: 360px;
     display: grid;
     grid-template-columns: 1fr 2fr 1.5fr 1fr;
     align-items: center;
@@ -191,6 +197,11 @@ picture img {
 }
 .section-text {
     margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
 }
 .section-text-important {
     font-size: 1.1rem;

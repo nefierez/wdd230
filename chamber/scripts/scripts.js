@@ -13,7 +13,7 @@ const dayNumber = date.toLocaleString('en', { day: 'numeric' });
 const month = date.toLocaleString('en', { month: 'long'});
 const year = date.getFullYear();
 
-const fullDate = `Today is ${dayName}, ${month} ${dayNumber}, ${year}`;
+const fullDate = `${dayName}, ${dayNumber} ${month} ${year}`;
 document.querySelector("#date").innerHTML = fullDate;
 
 /* ===========================================================================================*/
