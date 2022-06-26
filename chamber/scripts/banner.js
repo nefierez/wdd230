@@ -39,3 +39,34 @@ fetch(`https://api.openweathermap.org/data/2.5/weather?id=${3598132}&units=imper
     }
 });
 
+const URLrequest = 'https://nefierez.github.io/wdd230/chamber/scripts/data.json';
+const containers = document.querySelector(".light-container");
+
+fetch(URLrequest)
+.then(function (response) {
+    return response.json();
+})
+.then(function (jsonObject) {
+    const companies = jsonObject["companies"];
+    companies.forEach(displayCompanies);
+});
+
+function displayCompanies(company) {
+    let businessCard = document.querySelector(".box");
+    let logo = document.querySelector(".companyLogo");
+    let name = document.querySelector(".companyName");
+    let phone = document.querySelector(".companyPhone");
+    let email = document.querySelector(".companyEmail");
+    let membership = document.querySelector(".companyMembership");
+    let website = document.querySelector(".companyWebsite");
+
+    logo.setAttribute('src', company.logo);
+    logo.setAttribute('alt', `${company.name}'s logo`);
+    name.textContent = company.name;
+    phone.textContent = company.phone;
+    email.textContent = company.email;
+    membership.textContent = company.membership;
+    website.innerHTML = `<a href="${company.url}" target="_blank">Commerce Website</a>`;
+
+    containers.appendChild(businessCard);
+}

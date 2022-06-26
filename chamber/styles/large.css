@@ -35,6 +35,9 @@
 
 
 
+    #mainIndex {
+        grid-template-columns: 1fr .9fr 1.1fr 1fr;
+    }
 
     #social {
         order: 2;
@@ -63,7 +66,7 @@
     }
     .spotlights {
         grid-row: 1/4;
-        grid-column: 4/5;  
+        grid-column: 4/5;
     }
     .spot1 {
         grid-row: 1/2;
