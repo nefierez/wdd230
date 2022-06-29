@@ -368,7 +368,7 @@ input[type=radio] {
 
 .infoCards-Grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     margin: -1rem 2rem 2rem 2rem;
 }
 .infoCards-list {
@@ -380,20 +380,15 @@ input[type=radio] {
 .infoCards-Grid section {
     margin: 1rem;
     padding: 1rem;
-    border: 1px solid gray;
-    border-radius: 10px;
-    box-shadow: 0 0 5px #777;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: space-between;
-    background-color: #F6FAFE;
+    border: 1px solid var(--color1);
+    background-color: var(--color2);
 }
 
 .infoCards-Grid section h2 {
     color: #08232B;
     border-bottom: 1px solid #08232B;
     margin: 1rem;
+    font-size: 1.2rem;
 }
 
 .infoCards-Grid section p {
@@ -402,16 +397,13 @@ input[type=radio] {
 }
 
 .infoCards-Grid img {
-    max-width: 220px;
-    margin: 0 auto;
-    margin-top: 1rem;
+    max-width: 30%;
     border-radius: 10px;
-    box-shadow: 0 0 15px #777;
 }
 .infoCards-Grid section:hover {
-    box-shadow: 0 0 20px #10354B;
+    box-shadow: 0 0 10px #10354B;
     transition: transform .1s;
-    transform: rotate(1deg);
+    transform: rotate(.5deg);
 }
 
 

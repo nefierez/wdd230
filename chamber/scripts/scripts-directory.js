@@ -50,12 +50,12 @@ function displayCompanies(company) {
     website.classList.add("website");
     membership.classList.add("membership");
 
+    card.appendChild(logo);
     card.appendChild(name);
     card.appendChild(address);
     card.appendChild(phone);
     card.appendChild(email);
     card.appendChild(website);
     card.appendChild(membership);
-    card.appendChild(logo);
     infoCards.appendChild(card);
 }
