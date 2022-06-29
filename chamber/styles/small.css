@@ -43,10 +43,10 @@ header {
     grid-template-columns: 1fr 2fr 1.5fr .5fr;
     align-items: center;
     background-color: var(--color2);
-    padding: .5rem;
 }
 #logo {
     width: 80px;
+    padding: .5rem 0;
 }
 #headings {
     font-size: .8rem;
@@ -82,7 +82,7 @@ nav ul li a:hover {
     color: var(--color5);
 }
 nav ul {display: none;}
-nav ul.open {display: block; padding: 0; margin: 0;}
+nav ul.open {display: block;}
 
 #menu span:nth-child(1) {display: block; cursor: pointer;}
 #menu span:nth-child(2) {display: none}
