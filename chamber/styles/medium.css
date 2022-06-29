@@ -58,6 +58,7 @@
 
 
     #mainIndex {
+        display: grid;
         grid-template-columns: 1fr .9fr 1.1fr;
     }
     .hero, .news, .spotlights, .join {

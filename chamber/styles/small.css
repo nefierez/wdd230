@@ -20,6 +20,8 @@ p {
     font-size: 1.1rem;
     color: var(--color1);
 }
+
+/*===== Banner =====*/
 #banner {
     display: none;
     padding: 1.5rem;
@@ -34,6 +36,8 @@ p {
     padding-left: .5rem;
     cursor: pointer;
 }
+
+/*===== Header =====*/
 header {
     display: grid;
     grid-template-columns: 1fr 2fr 1.5fr .5fr;
@@ -51,6 +55,8 @@ header {
     width: 35px;
     margin: .2rem;
 }
+
+/*===== Ham Menu =====*/
 #menu {
     margin-top: -.6rem;
     background-color: transparent;
@@ -76,31 +82,29 @@ nav ul li a:hover {
     color: var(--color5);
 }
 nav ul {display: none;}
-nav ul.open {display: block;}
-
-#social.open {
-    display: none;
-}
+nav ul.open {display: block; padding: 0; margin: 0;}
 
 #menu span:nth-child(1) {display: block; cursor: pointer;}
-#menu span:nth-child(2) {display:none}
+#menu span:nth-child(2) {display: none}
 
 #menu.open span:nth-child(1) {display: none;}
 #menu.open span:nth-child(2) {display: block; cursor: pointer;}
 
+/*===== Date =====*/
 #date {
     background-color: var(--color1);
     color: var(--color2);
     padding: .7rem;
 }
+
+/*===== Visits =====*/
 #visits {
     background-color: var(--color5);
     border-bottom: 1px solid var(--color1);
     padding: .7rem;
 }
-body {
-    font-size: 16px;
-}
+
+/*===== Footer =====*/
 footer {
     background-color: var(--color2);
     font-size: 12px;
@@ -124,7 +128,8 @@ footer {
 
 
 
-#mainIndex {
+
+main {
     margin: 1rem;
 }
 .placeholder {
@@ -239,13 +244,6 @@ picture img {
 
 
 
-
-
-#discoverMain, #joinMain, #thankyouMain, #directoryMain {
-    display: flex;
-	flex-direction: column;
-    text-align: center;
-}
 #discoverTitle, #thankyouTitle, #directoryTitle {
     padding: 1rem;
     margin: 1rem;
