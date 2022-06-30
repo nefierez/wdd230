@@ -175,8 +175,8 @@ picture img {
 }
 
 .companyLogo {
-    width: 30%;
-    margin-top: 1.5rem;
+    width: 35%;
+    margin-top: 1rem;
 }
 
 .light-container {
@@ -190,7 +190,9 @@ picture img {
     padding: 1.5rem;
     font-size: 1.2rem;
 }
-
+.company-container .section-text {
+    padding: 1rem;
+}
 .company-container .section-text p {
     padding-top: 1rem;
     font-size: .9rem;
