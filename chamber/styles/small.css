@@ -128,97 +128,73 @@ footer {
 
 
 
-
+/*===== Main =====*/
 main {
     margin: 1rem;
 }
+
 .placeholder {
-    border: solid 1px gray;
-    margin: .5rem .2rem 0;
-    text-align: center;
+    border: solid 1px var(--color6);
+    margin: .5rem;
 }
-h3, h4 {
-    background-color: #08232B;
-    color: #F6FAFE;
+
+.placeholder-title {
+    background-color: var(--color1);
+    color: var(--color2);
     padding: .5rem;
 }
+
 .hero {
     position: relative;
 }
+
 .hero-title {
     position: absolute;
     top: 10px;
     left: 10px;
-    background-color: #F6FAFE;
-    color: #08232B;
-    padding: .6rem;
-    border-radius: .4rem;
+    background-color: var(--color2);
+    color: var(--color1);
+    padding: 1rem;
+    border-radius: .5rem;
 }
+
 .hero-button{
     position: absolute;
     bottom: 10px;
     right: 10px;
-    color: #F6FAFE;
-    background-color: #08232B;
+    color: var(--color2);
+    background-color: var(--color1);
     cursor: pointer;
-    padding: .6rem;
-    border-radius: .4rem;
+    padding: .8rem;
+    border-radius: .5rem;
 }
-.light-container {
-    display: grid;
-}
-.spot3 {
-    display: none;
-}
-.spots {
-    border: solid 1px gray;
-    margin: .3rem;
-    padding-bottom: .5rem;
-}
-.join {
-    display: none;
-}
+
 picture img {    
     width: 100%;
 }
-.try {
+
+.companyLogo {
     width: 40%;
+    margin-top: 1.5rem;
 }
-.section-text {
-    margin: 1rem;
+
+.light-container {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    height: auto;
 }
-.section-text-important {
-    font-size: 1.1rem;
-    font-weight: bold;
-    padding-bottom: .5rem;
+
+#spot3, .join {
+    display: none;
 }
-.section-text-bottom {
-    margin: .8rem;
-    padding-bottom: .8rem;
-    border-bottom: 1px solid #08232B;
-    font-size: 1.1rem;
-    font-weight: bold;
+
+.section-text {
+    padding: 1.5rem;
 }
 
 
-
-#weatherInfo{
-    padding: 1rem;
-    font-size: 1.5rem;
-}
-
+/*===== Weather =====*/
 #weatherFigure {
     display: grid;
     grid-template-columns: .9fr 1.1fr;
-}
-#currentTemp {
-    margin: auto auto auto 1rem;
-    font-size: 2.5rem;
 }
 
 #weatherIcon {
@@ -226,7 +202,13 @@ picture img {
     margin-left: auto;
 }
 
+#currentTemp {
+    margin: auto auto auto 1rem;
+    font-size: 2.5rem;
+}
+
 #weatherDescription {
+    font-size: 1.5rem;
     margin: 1rem 2rem;
     padding-bottom: .5rem;
     border-bottom: 1px solid #08232B;
@@ -235,11 +217,11 @@ picture img {
 .weatherInfo {
     padding: .5rem;
     font-size: 1.2rem;
-    margin-bottom: 1rem;
 }
 
 #sourced {
     font-size: 1rem;
+    line-height: 2rem;
 }
 
 

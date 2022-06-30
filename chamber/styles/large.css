@@ -36,7 +36,7 @@
 
 
     #mainIndex {
-        grid-template-columns: 1fr .9fr 1.1fr 1fr;
+        grid-template-columns: 1fr 2fr 1fr;
     }
 
     #social {
@@ -56,8 +56,13 @@
         grid-column: 1/2;
         grid-row: 3/4;
     }
+
+    .join section {
+        display: block;
+        margin: auto 0;
+    }
     .hero {
-        grid-column: 2/4;
+        grid-column: 2/3;
         grid-row: 1/3;
     }
     .hero img {
@@ -65,25 +70,20 @@
         height: 100%;
     }
     .news {
-        grid-column: 2/4;
+        grid-column: 2/3;
         grid-row: 3/4;
     }
-    .spotlights {
+    .light-container {
+        display: grid;
         grid-row: 1/4;
-        grid-column: 4/5;
+        grid-column: 3/4;
     }
-    .spot1 {
-        grid-row: 1/2;
-    }
-    .spot2 {
-        grid-row: 2/3;
-    }
-    .spot3 {
-        grid-row: 3/4;
-    }
-    .spotlights :nth-child(3) {
+
+    #spot3 {
         display: block;
     }
+
+
     footer {
         font-size: 1.1rem;
     }

@@ -56,7 +56,7 @@ fetch(URLrequest)
 });
 
 function displayCompanies(company) {
-    let businessCard = document.querySelector(".box");
+    let businessCard = document.querySelector(".company-container");
     let logo = document.querySelector(".companyLogo");
     let name = document.querySelector(".companyName");
     let phone = document.querySelector(".companyPhone");
