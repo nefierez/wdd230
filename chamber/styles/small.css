@@ -180,9 +180,8 @@ picture img {
 }
 
 .light-container {
-    display: flex;
+    display: grid;
 }
-
 #spot3, .join {
     display: none;
 }
