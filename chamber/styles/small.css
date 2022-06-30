@@ -289,7 +289,6 @@ picture img {
     margin: 0 2.5rem;
     border: 1px solid #08232B;
     border-radius: 10px;
-    text-align: left;
 }
 
 form fieldset {
@@ -303,6 +302,7 @@ form legend {
     color: #08232B;
     margin: 0 1rem;
     padding: 0 .5rem;
+    text-align: left;
 }
 
 form label.formInfo {
@@ -310,6 +310,7 @@ form label.formInfo {
     padding-top: 1rem;
     color: #08232B;
     font-size: .8rem;
+    text-align: left;
 }
 
 form label.formInfo input, form label.formInfo select {
@@ -321,6 +322,7 @@ form label.formInfo input, form label.formInfo select {
     width: 100%;
     max-width: 20rem;
     background-color: #F6FAFE;
+    text-align: left;
 }
 
 form label.formMembership {
@@ -328,10 +330,13 @@ form label.formMembership {
     padding: .75rem 0;
     color: #08232B;
     font-size: 1.2rem;
+    text-align: left;
+
 }
 #submitDiv {
     margin: 1rem;
     padding: .5rem 2%;
+    text-align: left;
 }
 form input.submitBtn {
     border: none;
