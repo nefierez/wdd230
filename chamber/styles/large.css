@@ -48,6 +48,9 @@
         grid-column: 1/2;
         grid-row: 1/2;
     }
+    .section-text-optional, .section-text-opt {
+        display: none;
+    }
     .weather {
         grid-column: 1/2;
         grid-row: 2/3;
@@ -82,6 +85,14 @@
     #spot3 {
         display: block;
     }
+    .join-button{
+        font-size: 1.2rem;
+    }
+
+
+
+
+
 
 
     footer {

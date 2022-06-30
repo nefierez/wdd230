@@ -67,6 +67,7 @@
     .light-container {
         grid-row: 3/4;
     }
+
     .join {
         display: block;
     }
@@ -75,8 +76,31 @@
         grid-column: 1/3;
     }
 
+    .section-text-optional {
+        padding-top: 1rem;
+        display: block;
+    }
+
     .weather {
-        grid-row: 5/6;
+        grid-row: 5/6;  
+    }
+
+    .hero-title {
+        font-size: 1.8rem;
+    }
+    
+    .hero-button{
+        font-size: 1.5rem;
+    }
+
+    .join-button{
+        color: var(--color2);
+        background-color: var(--color1);
+        cursor: pointer;
+        padding: .8rem;
+        border-radius: .5rem;
+        margin-top: 1.2rem;
+        font-size: 1rem;
     }
 
 

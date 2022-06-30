@@ -66,7 +66,7 @@ function displayCompanies(company) {
 
     logo.setAttribute('src', company.logo);
     logo.setAttribute('alt', `${company.name}'s logo`);
-    name.textContent = company.name;
+    name.textContent = `${company.name} 🔰`;
     phone.textContent = company.phone;
     email.textContent = company.email;
     membership.textContent = company.membership;

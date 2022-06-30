@@ -167,6 +167,7 @@ main {
     cursor: pointer;
     padding: .8rem;
     border-radius: .5rem;
+    font-size: 1rem;
 }
 
 picture img {    
@@ -174,7 +175,7 @@ picture img {
 }
 
 .companyLogo {
-    width: 40%;
+    width: 30%;
     margin-top: 1.5rem;
 }
 
@@ -188,6 +189,26 @@ picture img {
 
 .section-text {
     padding: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.company-container .section-text p {
+    padding-top: 1rem;
+    font-size: .9rem;
+}
+
+.section-text a {
+    text-decoration: none;
+    color: var(--color6);
+    padding-bottom: .05rem;
+    border-bottom: 1px solid var(--color1);
+}
+
+.companyMembership {
+    padding-bottom: .1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-bottom: 1px solid var(--color1);
 }
 
 
@@ -223,6 +244,17 @@ picture img {
     font-size: 1rem;
     line-height: 2rem;
 }
+.section-text-title {
+    padding-bottom: 1rem;
+}
+
+.section-text-optional {
+    display: none;
+}
+.section-text-opt {
+    padding-top: 1rem;
+}
+
 
 
 
