@@ -3,17 +3,17 @@
         {
             "logo": "https://raw.githubusercontent.com/nefierez/wdd230/main/week07/images/attachment_113407679.jpg",
             "name": "OAK BEND FARM",
-            "phone": "5252-0000",
-            "email": "service@.com",
+            "phone": "(+502) 2235-5433",
+            "email": "service@oakbendfarm.com",
             "url": "https://nefierez.github.io/wdd230/workinprogress.html",
             "address": "Guatemala City",
-            "membership": "Gold Membership"
+            "membership": "Non-Profit Membership"
         },
         {
             "logo": "https://github.com/nefierez/wdd230/blob/main/week07/images/attachment_62338922.jpg?raw=true",
             "name": "GRACE RANCH",
-            "phone": "5252-0000",
-            "email": "service@.com",
+            "phone": "(+502) 2200-6977",
+            "email": "service@graceranch.com",
             "url": "https://nefierez.github.io/wdd230/workinprogress.html",
             "address": "Guatemala City",
             "membership": "Non-Profit Membership"
@@ -21,35 +21,35 @@
         {
             "logo": "https://github.com/nefierez/wdd230/blob/main/week07/images/attachment_64750543.jpg?raw=true",
             "name": "SHEAR CLUB",
-            "phone": "5252-0000",
-            "email": "service@.com",
+            "phone": "(+502) 5522-1705",
+            "email": "service@shearclub.com",
             "url": "https://nefierez.github.io/wdd230/workinprogress.html",
             "address": "Guatemala City",
-            "membership": "Gold Membership"
+            "membership": "Bronze Membership"
         },
         {
             "logo": "https://github.com/nefierez/wdd230/blob/main/week07/images/attachment_117106944.jpg?raw=true",
             "name": "MONGIELLOS",
-            "phone": "5252-0000",
-            "email": "service@.com",
+            "phone": "(+502) 7720-9108",
+            "email": "service@mongiellos.com",
+            "url": "https://nefierez.github.io/wdd230/workinprogress.html",
+            "address": "Guatemala City",
+            "membership": "Bronze Membership"
+        },
+        {
+            "logo": "https://github.com/nefierez/wdd230/blob/main/week07/images/attachment_115425753.jpg?raw=true",
+            "name": "BLUE SMOKEHOUSE",
+            "phone": "(+502) 2287-1798",
+            "email": "service@bluesmokehouse.com",
             "url": "https://nefierez.github.io/wdd230/workinprogress.html",
             "address": "Guatemala City",
             "membership": "Silver Membership"
         },
         {
-            "logo": "https://github.com/nefierez/wdd230/blob/main/week07/images/attachment_115425753.jpg?raw=true",
-            "name": "BLUE SMOKEHOUSE",
-            "phone": "5252-0000",
-            "email": "service@.com",
-            "url": "https://nefierez.github.io/wdd230/workinprogress.html",
-            "address": "Guatemala City",
-            "membership": "Gold Membership"
-        },
-        {
             "logo": "https://github.com/nefierez/wdd230/blob/main/week07/images/attachment_62466682.jpg?raw=true",
             "name": "OLD IRVING",
-            "phone": "5252-0000",
-            "email": "service@.com",
+            "phone": "(+502) 8825-4881",
+            "email": "service@oldirving.com",
             "url": "https://nefierez.github.io/wdd230/workinprogress.html",
             "address": "Guatemala City",
             "membership": "Silver Membership"
@@ -57,29 +57,29 @@
         {
             "logo": "https://github.com/nefierez/wdd230/blob/main/week07/images/attachment_63050471.jpg?raw=true",
             "name": "MASON&CANE",
-            "phone": "5252-0000",
-            "email": "service@.com",
+            "phone": "(+502) 6617-6331",
+            "email": "service@mason&cane.com",
             "url": "https://nefierez.github.io/wdd230/workinprogress.html",
             "address": "Guatemala City",
-            "membership": "Bronze Membership"
+            "membership": "Gold Membership"
         },
         {
             "logo": "https://github.com/nefierez/wdd230/blob/main/week07/images/attachment_66170973.jpg?raw=true",
             "name": "THE CLUB",
-            "phone": "5252-0000",
-            "email": "service@.com",
+            "phone": "(+502) 5566-9089",
+            "email": "service@theclub.com",
             "url": "https://nefierez.github.io/wdd230/workinprogress.html",
             "address": "Guatemala City",
-            "membership": "Bronze Membership"
+            "membership": "Gold Membership"
         },
         {
             "logo": "https://github.com/nefierez/wdd230/blob/main/week07/images/attachment_57619348.jpg?raw=true",
             "name": "GARCIA'S",
-            "phone": "5252-0000",
-            "email": "service@.com",
+            "phone": "(+502) 7706-2310",
+            "email": "service@garcias.com",
             "url": "https://nefierez.github.io/wdd230/workinprogress.html",
             "address": "Guatemala City",
-            "membership": "Silver Membership"
+            "membership": "Gold Membership"
         }
     ]
 }
