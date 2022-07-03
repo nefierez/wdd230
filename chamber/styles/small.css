@@ -287,6 +287,7 @@ picture img {
 #joinForm {
     max-width: 600px;
     margin: 0 2.5rem;
+    padding: 1.5rem;
     border: 1px solid #08232B;
     border-radius: 10px;
 }
@@ -294,8 +295,6 @@ picture img {
 form fieldset {
     border: none;
     border-top: 1px solid #08232B;
-    margin: 1rem;
-    padding: .5rem 2%;
 }
 
 form legend {
@@ -307,14 +306,30 @@ form legend {
 
 form label.formInfo {
     display: block;
-    padding-bottom: 1.5rem;
     color: var(--color1);
     text-align: left;
+    padding: .5rem 1rem 1.5rem 1rem;
+    max-width: 30rem;
+}
+
+div.formInfo {
+    padding: .5rem 1.5rem 1rem 1.5rem;
+    max-width: 30rem;
+
+}
+
+.businessInfo {
+    display: block;
+    text-align: left;
+    padding: 1.5rem 1rem;
+    max-width: 30rem;
 }
 
 .MembershipQuestion {
     display: block;
     text-align: left;
+    padding: 0 1rem;
+    max-width: 30rem;
 }
 
 form label.formInfo input, form label.formInfo select, .textbox {
@@ -337,27 +352,20 @@ form label.formMembership {
     align-items: center;
 }
 form label.mem1 {
-    padding: 0 0 1rem 0;
-}
-.formInfo {
-    padding: .5rem 1rem 1.5rem 1rem;
-    max-width: 30rem;
-}
-#submitDiv {
-    margin: 0 1rem 1rem 1rem;
-    padding: .5rem 2%;
-    text-align: left;
+    padding: 0 0 1rem 1rem;
 }
 form input.submitBtn {
+    display: block;
     border: none;
     background-color: #08232B;
     color: #E8F3FE;
-    border-radius: 1rem;
-    padding: .75rem 1.5rem;
     width: 100%;
-    max-width: 30rem;
+    max-width: 28rem;
+    border-radius: 1rem;
+    padding: .75rem 1rem;
     cursor: pointer;
     font-size: 1.3rem;
+    margin: 0 1rem;
 }
 
 form label.formInfo input:required:invalid {
@@ -376,10 +384,6 @@ input[type=radio] {
     cursor: pointer;
 }
 
-.contactSection {
-    margin: -1rem 1rem 0 1rem;
-    padding:  2%;
-}
 
 
 
