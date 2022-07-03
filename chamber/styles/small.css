@@ -392,6 +392,9 @@ input[type=radio] {
     margin: 0 1.5rem 1rem 1.5rem;
     border-radius: 10px;
 }
+.membershipBox .placeholder-title {
+    border-radius: 10px 10px 0 0;
+}
 .membershipPlans {
     margin: .5rem;
     padding: .5rem .5rem 1rem .5rem;
