@@ -139,9 +139,7 @@
     }
 
 
-    #joinForm {
-        margin: 0 auto;
-    }
+
 
 
 
@@ -155,15 +153,15 @@
 
 
 
-    #contactBody {
+    #contactBody, #joinBody {
         display: grid;
-        grid-template-columns: 1.5fr 1fr;
-        grid-gap: 2rem;
+        grid-template-columns: 1.25fr 1fr;
+        grid-gap: 1rem;
     }
     #visitUs {
         grid-column: 2/3;
     }
-    #contactForm {
+    #contactForm, #joinForm {
         grid-row: 1;
         margin: 0 0 1rem 2rem;
     }
