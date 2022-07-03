@@ -331,6 +331,23 @@ div.formInfo {
     max-width: 30rem;
 }
 
+
+
+.submitBtn {
+    background-color: #08232B;
+    color: #E8F3FE;
+    border-radius: 1rem;
+    padding: .75rem 1rem;
+    cursor: pointer;
+    font-size: 1.3rem;
+    width: 100%;
+}
+.submitBtnContainer {
+    display: block;
+    padding: 0 1rem;
+    max-width: 30rem;
+}
+
 form label.formInfo input, form label.formInfo select, .textbox {
     display: block;
     font-size: 1rem;
@@ -353,19 +370,7 @@ form label.formMembership {
 form label.mem1 {
     padding: 0 0 1rem 1rem;
 }
-form input.submitBtn {
-    display: block;
-    border: none;
-    background-color: #08232B;
-    color: #E8F3FE;
-    width: 100%;
-    max-width: 28rem;
-    border-radius: 1rem;
-    padding: .75rem 1rem;
-    cursor: pointer;
-    font-size: 1.3rem;
-    margin: 0 1rem;
-}
+
 
 form label.formInfo input:required:invalid {
     border-left: 6px solid red;
