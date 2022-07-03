@@ -95,6 +95,16 @@
 
 
 
+    .membershipDescription {
+        display: block;
+    }
+
+    #contactBody, #joinBody {
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+
 
 
 
