@@ -284,12 +284,12 @@ picture img {
 }
 
 /*----------- Join Page --------------*/
-#joinForm {
-    max-width: 600px;
-    margin: 0 2.5rem;
+#joinForm, #contactForm {
+    margin: 0 1.5rem;
     padding: 1.5rem;
     border: 1px solid #08232B;
     border-radius: 10px;
+    max-width: 600px;
 }
 
 form fieldset {
@@ -467,4 +467,28 @@ input[type=radio] {
 
 .infoCards-list img, .email, .membership {
     display: none;
+}
+
+
+
+
+
+.visitSections {
+    margin: 0 1.5rem 2rem 1.5rem;
+    border-radius: 10px;
+}
+.visitSections .placeholder-title {
+    border-radius: 10px 10px 0 0;
+}
+.visitSections .section-text p {
+    margin-top: .8rem;
+    font-weight: 600;
+}
+.staffContact {
+    padding: .5rem 0;
+    margin: .5rem;
+    line-height: 1.5rem;
+}
+.position {
+    font-style: italic;
 }

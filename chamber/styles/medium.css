@@ -151,6 +151,22 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
         text-align: center;
     }
+
+
+
+
+    #contactBody {
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+        grid-gap: 2rem;
+    }
+    #visitUs {
+        grid-column: 2/3;
+    }
+    #contactForm {
+        grid-row: 1;
+        margin: 0 0 1rem 2rem;
+    }
 }
 
 
