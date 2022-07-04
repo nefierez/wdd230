@@ -39,9 +39,12 @@
     }
     #contactInfo {
         line-height: 18px;
-        grid-column: 3/4;
         text-align: right;
         margin-right: 2.5rem;
+    }
+
+    #contactInfo p {
+        text-align: right;
     }
     #myInfo {
         grid-column: 1/4;
