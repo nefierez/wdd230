@@ -28,10 +28,16 @@
         display: flex;
         order: 3;
     }
+    nav ul li.active a {
+        border-bottom: 5px double var(--color3);
+        border-radius: 0 0 8px 8px;
+    }
     nav ul li a {
         border: none;
         background-color: transparent;
     }
+
+    
 
 
 
