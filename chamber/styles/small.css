@@ -176,6 +176,7 @@ picture img {
 
 .companyLogo {
     width: 35%;
+    height: auto;
     margin-top: 1rem;
 }
 
