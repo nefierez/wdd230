@@ -60,6 +60,7 @@ header {
 /*===== Ham Menu =====*/
 #menu {
     margin-top: -.6rem;
+    margin-right: 1rem;
     background-color: transparent;
     border: none;
     font-size: 2rem;
@@ -521,8 +522,13 @@ input[type=radio] {
     border-radius: 10px 10px 0 0;
 }
 .visitSections .section-text p {
-    margin-top: .8rem;
+    margin-top: .7rem;
     font-weight: 600;
+    font-size: 1.1rem;
+}
+#contactChamber {
+    font-size: 1.3rem;
+    font-style: italic;
 }
 .staffContact {
     padding: .5rem 0;
@@ -531,4 +537,9 @@ input[type=radio] {
 }
 .position {
     font-style: italic;
+}
+
+
+#thankyouMain {
+    margin-bottom: 3rem;
 }
