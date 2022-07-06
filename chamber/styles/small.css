@@ -445,7 +445,6 @@ input[type=radio] {
     border-radius: 5px;
     cursor: pointer;
     padding: .2rem;
-    width: 60px;
 }
 .buttonsSpace {
     display: flex;
