@@ -285,7 +285,11 @@ picture img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0 2rem 2rem 2rem;
+    margin: 0 2rem 3rem 2rem;
+}
+
+.discoverInfo p {
+    font-size: 1.2rem;
 }
 
 .discoverTitle {
