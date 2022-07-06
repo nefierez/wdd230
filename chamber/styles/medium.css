@@ -131,11 +131,12 @@
 
     .discoverSections {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1.25fr 1fr;
+        justify-content: center;
     }
 
     .discoverPictures {
-        padding: 1rem 1rem 2rem 2rem;
+        padding: 2rem 2rem 2rem 2rem;
     }
     .discoverInfo {
         margin: 1rem 2rem 2rem 1rem;
