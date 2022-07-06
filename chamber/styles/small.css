@@ -433,6 +433,8 @@ input[type=radio] {
 #viewButtons {
     margin: 1rem 2rem 0 3rem;
     margin-bottom: 0;
+    display: flex;
+    justify-content: left;
 }
 
 .viewButtons {
@@ -443,12 +445,16 @@ input[type=radio] {
     border-radius: 5px;
     cursor: pointer;
     padding: .2rem;
+    width: 60px;
+}
+.buttonsSpace {
+    display: flex;
+    flex-direction: column;
 }
 
 .infoCards-Grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    margin: -1rem 2rem 2rem 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
 }
 .infoCards-list {
     display: flex;
@@ -464,37 +470,45 @@ input[type=radio] {
 }
 
 .infoCards-Grid section h2 {
-    color: #08232B;
-    border-bottom: 1px solid #08232B;
-    margin: 1rem;
+    color: var(--color1);
+    border-bottom: 1px solid var(--color1);
     font-size: 1.2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-bottom: 0.1rem;
 }
 
 .infoCards-Grid section p {
-    padding-bottom: .5rem;
-    font-size: 1.2rem;
+    padding-top: .5rem;
+    font-weight: 600;
 }
 
+.infoCards-Grid section p a {
+    text-decoration: none;
+    color: var(--color6);
+    padding-bottom: 0.05rem;
+    border-bottom: 1px solid var(--color1);
+}
+
+
 .infoCards-Grid img {
-    max-width: 30%;
+    max-width: 25%;
     border-radius: 10px;
 }
 .infoCards-Grid section:hover {
     box-shadow: 0 0 10px #10354B;
     transition: transform .1s;
-    transform: rotate(.5deg);
+    transform: rotate(.3deg);
 }
 
 
 .infoCards-list section {
     margin: 0;
     border: none;
-    box-shadow: none;
-    border-radius: 0;
 }
 
 .infoCards-list section:nth-child(even) {
-    background-color: #E8F3FE;
+    background-color: var(--color5);
 }
 
 .infoCards-list section h2 {
