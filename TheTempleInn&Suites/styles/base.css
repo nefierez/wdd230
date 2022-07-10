@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+#social {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+#menu, #socialMedia {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#closeIcon {
+    display: none;
+}
