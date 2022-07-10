@@ -8,6 +8,10 @@ const x = document.querySelector("#menu");
 x.onclick = toggleMenu;
 
 
+
+/* ===== Footer =====*/
+document.querySelector("#lastModified").innerHTML = document.lastModified;
+document.querySelector("#year").innerHTML = new Date().getFullYear();
 /* 
                         <ul>
                             <li><a href="reception"></a>Reception</li>
