@@ -60,7 +60,7 @@ ul, li, a {
 nav {
     grid-column: 1/3;
 }
-#navigation, #closeIcon {
+#navigation, #closeIcon, .subMenus {
     display: none;
 }
 .linkToPages {

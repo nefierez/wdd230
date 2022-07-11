@@ -1,4 +1,4 @@
-/* ===== Hamburguer Menu =====*/
+/*===== Hamburguer Menu =====*/
 function toggleMenu() {
     document.querySelector("#navigation").classList.toggle("navigationDisplay");
     document.querySelector("#closeIcon").classList.toggle("closeIconDisplay");
@@ -8,14 +8,15 @@ const x = document.querySelector("#menu");
 x.onclick = toggleMenu;
 
 
+/* ===== subMenu =====*/
+function subMenuFunction() {
+    document.querySelector("#subMenu1").classList.toggle("linkToPages");
+    document.querySelector("#subMenu2").classList.toggle("linkToPages");
+}
+const subMenu = document.querySelector("#subMenu");
+subMenu.onclick = subMenuFunction;
 
-/* ===== Footer =====*/
+
+/*===== Footer =====*/
 document.querySelector("#lastModified").innerHTML = document.lastModified;
 document.querySelector("#year").innerHTML = new Date().getFullYear();
-/* 
-                        <ul>
-                            <li><a href="reception"></a>Reception</li>
-                            <li><a href="missionaries"></a>Full-time Temple Missionary</li>
-                        </ul>
-
-                        */
