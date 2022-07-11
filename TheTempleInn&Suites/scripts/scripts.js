@@ -10,10 +10,9 @@ x.onclick = toggleMenu;
 
 /* ===== subMenu =====*/
 function subMenuFunction() {
-    document.querySelector("#subMenu1").classList.toggle("linkToPages");
-    document.querySelector("#subMenu2").classList.toggle("linkToPages");
+    document.querySelector("#subNavigation").classList.toggle("subNavigationDisplay");
 }
-const subMenu = document.querySelector("#subMenu");
+const subMenu = document.querySelector("#servicesTab");
 subMenu.onclick = subMenuFunction;
 
 
