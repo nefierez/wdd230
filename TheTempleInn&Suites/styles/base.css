@@ -30,8 +30,7 @@ ul, li, a {
 /*===== Logo =====*/
 .logo {
     display: flex;
-    min-width: 200px;
-    max-width: 300px;
+    max-width: 350px;
     margin: 0 auto;
 }
 .logo img {
@@ -50,7 +49,7 @@ ul, li, a {
     justify-content: space-evenly;
 }
 .menuIcons, .socialMediaIcons {
-    width: 25px;
+    width: 30px;
 }
 .menuIcons img, .socialMediaIcons img {
     width: 100%;
@@ -100,6 +99,7 @@ footer .logo {
 }
 footer .logo img {
     padding: 0;
+    width: 80%;
 }
 #myInfo {
     margin-top: 1rem;
