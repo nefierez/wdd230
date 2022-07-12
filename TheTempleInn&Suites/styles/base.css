@@ -1,12 +1,10 @@
 /* ===== General =====*/
 :root {
-    --color0: #257B62;
-    --color1: #2A4B40;
-    --color2: #257B62;
-    --color3: #89C6A7;
-    --color4: #DEEEEE;
-    --color5: #fffeef;
-    --color6: #D7A74E;
+    --color1: #012D57;
+    --color2: #1770A1;
+    --color3: #DEEEEE;
+    --color4: #FFFFFF;
+    --color5: #D7A74E;
 }
 * {
     margin: 0;
@@ -17,12 +15,16 @@
 h1, h2, h3 {
     font-family: 'Oranienbaum', serif;
     font-style: italic;
+    margin-bottom: 1rem;
 }
 p, span {
     font-family: 'Roboto', sans-serif;
 }
 ul, li, a {
     font-family: 'Libre Baskerville', serif;
+}
+.menuIcons, #servicesTab {
+    cursor: pointer;
 }
 
 /*========================= Header =========================*/
@@ -41,7 +43,7 @@ ul, li, a {
 #social {
     display: grid;
     grid-template-columns: 3fr 1fr;
-    background-color: var(--color5);
+    background-color: var(--color1);
 }
 #menu, #socialMedia {
     display: flex;
@@ -49,6 +51,7 @@ ul, li, a {
 }
 .menuIcons, .socialMediaIcons {
     width: 30px;
+    padding: .3rem 0;
 }
 .menuIcons img, .socialMediaIcons img {
     width: 100%;
@@ -66,19 +69,18 @@ nav {
     display: block;
     padding: 0.8rem 2vw;
     text-decoration: none;
-    color: var(--color5);
-    background-color: var(--color0);
-    border-top: 1px solid var(--color5);
+    color: var(--color4);
+    background-color: var(--color2);
+    border-top: 1px solid var(--color4);
 }
 .linkToSubPages {
     display: block;
     padding: 0.8rem 2vw;
     text-decoration: none;
-    color: var(--color0);
-    background-color: var(--color4);
-    border-bottom: 1px solid var(--color0);
+    color: var(--color1);
+    background-color: var(--color3);
+    border-bottom: 1px solid var(--color1);
 }
-
 #navigation.navigationDisplay, #closeIcon.closeIconDisplay, #subNavigation.subNavigationDisplay {
     display: block;
 }
@@ -86,13 +88,37 @@ nav {
     display: none;
 }
 
+/*===== Hover Over & Active =====*/
+.active {
+    color: var(--color4);
+    background-color: var(--color1);
+}
+.linkToPages:hover {
+    color: var(--color1);
+    background-color: var(--color3);
+    border-top: 1px solid var(--color1);
+    border-bottom: 1px solid var(--color1);
+
+}
+.linkToSubPages:hover {
+    color: var(--color4);
+    background-color: var(--color2);
+    border-top: 1px solid var(--color4);
+    border-bottom: 1px solid var(--color4);
+}
+
+
+/*========================= Main =========================*/
+main {
+    margin: 1.5rem;
+}
 
 
 /*========================= Footer =========================*/
 /*===== Logo =====*/
 footer {
-    background-color: var(--color0);
-    color: var(--color5);
+    background-color: var(--color1);
+    color: var(--color4);
     padding: 1rem;
     line-height: 1.5rem;
 }
@@ -108,6 +134,8 @@ footer .logo {
 footer .logo img {
     padding: 0;
 }
+
+/*===== Form =====*/
 #newsletter {
     padding: 1rem;
     margin: 1rem;
@@ -123,13 +151,13 @@ footer .logo img {
     width: 80%;
 }
 #inputEmail {
-    color: var(--color0);
-    background-color: var(--color5);
+    color: var(--color1);
     border: none;
+    font-weight: 550;
 }
 #newsletterButton {
     cursor: pointer;
-    color: var(--color5);
+    color: var(--color4);
     background-color: black;
 }
 #myInfo {
