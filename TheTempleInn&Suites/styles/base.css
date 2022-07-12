@@ -1,6 +1,6 @@
 /* ===== General =====*/
 :root {
-    --color0: #11422B;
+    --color0: #257B62;
     --color1: #2A4B40;
     --color2: #257B62;
     --color3: #89C6A7;
@@ -24,7 +24,6 @@ p, span {
 ul, li, a {
     font-family: 'Libre Baskerville', serif;
 }
-
 
 /*========================= Header =========================*/
 /*===== Logo =====*/
@@ -67,17 +66,17 @@ nav {
     display: block;
     padding: 0.8rem 2vw;
     text-decoration: none;
-    color: var(--color1);
-    background-color: var(--color4);
-    border-top: 1px solid var(--color1);
+    color: var(--color5);
+    background-color: var(--color0);
+    border-top: 1px solid var(--color5);
 }
 .linkToSubPages {
     display: block;
     padding: 0.8rem 2vw;
     text-decoration: none;
-    color: var(--color4);
-    background-color: var(--color1);
-    border-top: 1px solid var(--color4);
+    color: var(--color0);
+    background-color: var(--color4);
+    border-bottom: 1px solid var(--color0);
 }
 
 #navigation.navigationDisplay, #closeIcon.closeIconDisplay, #subNavigation.subNavigationDisplay {
@@ -108,7 +107,30 @@ footer .logo {
 }
 footer .logo img {
     padding: 0;
+}
+#newsletter {
+    padding: 1rem;
+    margin: 1rem;
+    margin-bottom: 2rem;
+}
+#newsletter label {
+    display: flex;
+    justify-content: center;
+}
+#inputEmail, #newsletterButton {
+    font-size: 1rem;
+    padding: .8rem;
     width: 80%;
+}
+#inputEmail {
+    color: var(--color0);
+    background-color: var(--color5);
+    border: none;
+}
+#newsletterButton {
+    cursor: pointer;
+    color: var(--color5);
+    background-color: black;
 }
 #myInfo {
     margin-top: 1rem;
