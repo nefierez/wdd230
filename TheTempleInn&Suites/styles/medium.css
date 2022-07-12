@@ -1,0 +1,25 @@
+@media (min-width: 700px) {
+    .logo {
+        max-width: 400px;
+    }
+    /*===== Social Media =====*/
+    .menuIcons, .socialMediaIcons {
+        width: 35px;
+    }
+    #newsletter {
+        display: inline-flex;
+        justify-content: center;
+    }
+    #inputEmail, #newsletterButton {
+        width: 100%;
+        font-size: 1.3rem;
+        padding: 1rem;
+    }
+    iframe {
+    width: 80%;
+    height: 350px;
+    }
+    footer .logo {
+        max-width: 300px;
+    }
+}

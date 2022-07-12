@@ -1,0 +1,10 @@
+@media (min-width: 1000px) {
+    #newsletter {
+        display: block;
+    }
+    #inputEmail, #newsletterButton {
+        width: 80%;
+        font-size: 1rem;
+        padding: .8rem;
+    }
+}
