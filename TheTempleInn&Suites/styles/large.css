@@ -1,25 +1,45 @@
 @media (min-width: 1000px) {
-    #social {
-        display: flex;
-        justify-content: space-between;
-        padding: 0 2rem;
+    :root {
+        --color1: #012D57;
+        --color2: #1770A1;
+        --color3: #DEEEEE;
+        --color4: #FFFFFF;
+        --color5: #D7A74E;
     }
-    #socialMedia {
-        order: 2;
+    #social {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        font-size: 1rem;
     }
     nav {
-        order: 1;
-        justify-content: space-evenly;
-        height: 2.5rem;
+        grid-column: 1/4;
+    }
+    #socialMedia {
+        grid-column: 4/5;
+        grid-row: 1/2;
     }
     #navigation {
         display: flex;
-        padding: 0;
+        justify-content: center;
+        list-style: none;
     }
     #menu {
         display: none;
     }
-
+    .linkToPages {
+        font-size: 1.3rem;
+        padding: 1.2rem 2.5rem;
+        background-color: var(--color1);
+        color: var(--color4);
+        border: none;
+    }
+    #subNavigation {
+        list-style: none;
+    }
+    .active {
+        color: var(--color4);
+        background-color: var(--color2);
+    }
 
 
 
