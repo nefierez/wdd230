@@ -15,7 +15,6 @@
 h1, h2, h3 {
     font-family: 'Oranienbaum', serif;
     font-style: italic;
-    margin-bottom: 1rem;
 }
 p, span {
     font-family: 'Roboto', sans-serif;
@@ -113,6 +112,14 @@ main {
     margin: 1.5rem;
 }
 
+
+/*========== Temples Main ==========*/
+.TemplesDedicated ul li, .TemplesAnnounced ul li, #templeGuidelines li {
+    text-align: left;
+}
+.milestonesTitle, .servicesTitle, .closuresTitle {
+    text-align: left;
+}
 
 /*========================= Footer =========================*/
 /*===== Logo =====*/
