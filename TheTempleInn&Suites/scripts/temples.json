@@ -37,7 +37,9 @@
                         "Monday, 3 October 2022",
                         "Saturday, 24 December 2022",
                         "Saturday, 31 December 2022"]
-        },
+        }
+    ],
+    "templesAnnounced": [
         {
             "templePhoto": "https://github.com/nefierez/wdd230/blob/main/TheTempleInn&Suites/images/Temple3-small.jpg?raw=true",
             "name": "Cobán Guatemala Temple",
