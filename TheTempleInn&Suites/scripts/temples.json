@@ -1,7 +1,7 @@
 {
     "temples": [
         {
-            "templePhoto": "https://raw.githubusercontent.com/nefierez/wdd230/main/week07/images/attachment_113407679.webp",
+            "templePhoto": "https://github.com/nefierez/wdd230/blob/main/TheTempleInn&Suites/images/Temple1-small.jpg?raw=true",
             "name": "Guatemala City Guatemala Temple",
             "address": "24 Avenida 2-20, Zona 15 Vista Hermosa 1, Guatemala City, Guatemala",
             "phone": "(502) 2329-8300",
@@ -20,7 +20,7 @@
                         "Saturday, 31 December 2022"]
         },
         {
-            "templePhoto": "https://raw.githubusercontent.com/nefierez/wdd230/main/week07/images/attachment_113407679.webp",
+            "templePhoto": "https://github.com/nefierez/wdd230/blob/main/TheTempleInn&Suites/images/Temple2-small.jpg?raw=true",
             "name": "Quetzaltenango Guatemala Temple",
             "address": "9a. Calle 4-03, Zona 9 Quetzaltenango, Guatemala",
             "phone": "(502) 7728-1603",
@@ -39,7 +39,7 @@
                         "Saturday, 31 December 2022"]
         },
         {
-            "templePhoto": "https://raw.githubusercontent.com/nefierez/wdd230/main/week07/images/attachment_113407679.webp",
+            "templePhoto": "https://github.com/nefierez/wdd230/blob/main/TheTempleInn&Suites/images/Temple3-small.jpg?raw=true",
             "name": "Cobán Guatemala Temple",
             "address": "Coban, Guatemala",
             "Important Information": ["Temple closed during construction"],
@@ -47,7 +47,7 @@
                         "14 November 2020: Groundbreaking"]
         },
         {
-            "templePhoto": "https://raw.githubusercontent.com/nefierez/wdd230/main/week07/images/attachment_113407679.webp",
+            "templePhoto": "https://github.com/nefierez/wdd230/blob/main/TheTempleInn&Suites/images/Temple4-small.jpg?raw=true",
             "name": "Miraflores Guatemala City Guatemala Temple",
             "address": "Guatemala City, Guatemala",
             "Important Information": ["Temple closed during construction"],
