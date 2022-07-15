@@ -33,28 +33,31 @@ fetch(URLrequest)
 })
 .then(function (jsonObject) {
     const temple = jsonObject["temples"];
-    temple.forEach(displayTemple);
+    const templeAnnounced = jsonObject["templesAnnounced"];
+    temple.forEach(TempleAnnounced);
+    templeAnnounced.forEach(TempleAnnounced);
 });
 
-function displayTemple(temple) {
-
+function TempleAnnounced(temple) {
     let templeCard = document.createElement("section");
     let templePhoto = document.createElement("img");
     let name = document.createElement("h2");
     let address = document.createElement("p");
     let phone = document.createElement("p");
     let email = document.createElement("p");
-    let services = document.createElement("li");
-    let membership = document.createElement("p");
+    let services = document.createElement("ul");
+    let milestones = document.createElement("ul");
+    let closures = document.createElement("ul");
 
     templePhoto.setAttribute('src', temple.templePhoto);
-    templePhoto.setAttribute('alt', `${temple.name}'s logo`);
+    templePhoto.setAttribute('alt', `${temple.name}'s Photo`);
     name.textContent = `${temple.name}`;
     address.textContent = `${temple.address}`;
     phone.textContent = `${temple.phone}`;
     email.textContent = `${temple.email}`;
     services.innerHTML = `${temple.services}`;
-    membership.textContent = `${temple.membership}`;
+    milestones.innerHTML = `${temple.milestones}`;
+    closures.innerHTML = `${temple.closures}`;
 
     templePhoto.classList.add("templePhoto");
     name.classList.add("name");
@@ -62,7 +65,8 @@ function displayTemple(temple) {
     phone.classList.add("phone");
     email.classList.add("email");
     services.classList.add("services");
-    membership.classList.add("membership");
+    milestones.classList.add("milestones");
+    closures.classList.add("closures");
 
     templeCard.appendChild(templePhoto);
     templeCard.appendChild(name);
@@ -70,6 +74,7 @@ function displayTemple(temple) {
     templeCard.appendChild(phone);
     templeCard.appendChild(email);
     templeCard.appendChild(services);
-    templeCard.appendChild(membership);
+    templeCard.appendChild(milestones);
+    templeCard.appendChild(closures);
     infoCards.appendChild(templeCard);
 }
