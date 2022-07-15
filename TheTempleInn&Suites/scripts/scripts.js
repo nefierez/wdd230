@@ -35,8 +35,8 @@ fetch(URLrequest)
     const templesDedicated = jsonObject["templesDedicated"];
     templesDedicated.forEach(TempleDedicated);
 
-    
-
+    const templesAnnounced = jsonObject["templesAnnounced"];
+    templesAnnounced.forEach(TempleAnnounced);
 });
 
 function TempleDedicated(temple) {
@@ -77,5 +77,30 @@ function TempleDedicated(temple) {
     templeCard.appendChild(services);
     templeCard.appendChild(milestones);
     templeCard.appendChild(closures);
+    infoCards.appendChild(templeCard);
+}
+
+function TempleAnnounced(temple) {
+    let templeCard = document.createElement("section");
+    let templePhoto = document.createElement("img");
+    let name = document.createElement("h2");
+    let address = document.createElement("p");
+    let milestones = document.createElement("ul");
+
+    templePhoto.setAttribute('src', temple.templePhoto);
+    templePhoto.setAttribute('alt', `${temple.name}'s Photo`);
+    name.textContent = `${temple.name}`;
+    address.textContent = `${temple.address}`;
+    milestones.innerHTML = `${temple.milestones}`;
+
+    templePhoto.classList.add("templePhoto");
+    name.classList.add("name");
+    address.classList.add("address");
+    milestones.classList.add("milestones");
+
+    templeCard.appendChild(templePhoto);
+    templeCard.appendChild(name);
+    templeCard.appendChild(address);
+    templeCard.appendChild(milestones);
     infoCards.appendChild(templeCard);
 }
