@@ -32,13 +32,14 @@ fetch(URLrequest)
     return response.json();
 })
 .then(function (jsonObject) {
-    const temple = jsonObject["temples"];
-    const templeAnnounced = jsonObject["templesAnnounced"];
-    temple.forEach(TempleAnnounced);
-    templeAnnounced.forEach(TempleAnnounced);
+    const templesDedicated = jsonObject["templesDedicated"];
+    templesDedicated.forEach(TempleDedicated);
+
+    
+
 });
 
-function TempleAnnounced(temple) {
+function TempleDedicated(temple) {
     let templeCard = document.createElement("section");
     let templePhoto = document.createElement("img");
     let name = document.createElement("h2");
