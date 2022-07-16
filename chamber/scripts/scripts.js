@@ -21,4 +21,4 @@ document.querySelector("#date").innerHTML = fullDate;
 
 /* ===== Last Modified Date =====*/
 document.querySelector("#lastModified").innerHTML = document.lastModified;
-document.querySelector("#year").innerHTML = new Date().getFullYear();
+document.querySelector("#year").innerHTML = year;

@@ -57,8 +57,27 @@
         </div>
     </header>
     <main>
-        <h1>This is just a Title</h1>
-        <p>This is just a paragraph</p>
+        <form id="joinForm" action="thankyou.html" method="get">   
+            <fieldset>
+                <legend>Your Information</legend>
+                <label class="formInfo">First Name* <input type="text" name="fname" required></label>
+                <label class="formInfo">Last Name* <input type="text" name="lname" required></label>
+                <label class="formInfo">Business Position Title <input type="text" name="businessPosition"></label>
+                <label class="formInfo">Email* <input type="email" name="email" placeholder="guatemala@chamberofcommerce.com" required></label>
+                <label class="formInfo">Phone* <input type="tel" name="phone" placeholder="1230006280" required></label>
+                <label class="formInfo">Business Name* <input type="text" name="businessName" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Membership Plans</legend>
+                <label class="formMembership mem1"><input type="radio" name="membership" value="non-profit" required>Non-Profit Membership</label>
+                <label class="formMembership mem1"><input type="radio" name="membership" value="bronze" required>Bronze Membership</label>
+                <label class="formMembership mem1"><input type="radio" name="membership" value="silver" required>Silver Membership</label>
+                <label class="formMembership mem1"><input type="radio" name="membership" value="gold" required>Gold Membership</label>
+                <div class="formInfo">*Memberships have increasing costs as well as increased benefits per level like trainings, event discounts, etc.</div>
+            </fieldset>
+                <label class="businessInfo">Tell Us About Your Business<textarea class="textbox" name="tbox" cols="6" rows="5"></textarea></label>
+            <label class="submitBtnContainer"><input class="submitBtn" type="submit" value="Join the Chamber"></label>
+        </form>
     </main>
     <footer>
         <section id="footerContact">
