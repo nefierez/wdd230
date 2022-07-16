@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
     <script src="scripts/scripts.js" defer></script>
+    <script src="scripts/home.js" defer></script>
     <title>The Temple Inn & Suites | Home</title>
 </head>
 <body>
@@ -57,8 +58,17 @@
         </div>
     </header>
     <main>
-        <h1>This is just a Title</h1>
-        <p>This is just a paragraph</p>
+        <div class="weather">
+            <h3>Current Weather ☁</h3>
+            <section id="weatherInfo">
+                <figure id="weatherFigure">
+                    <img src="" alt="" id="weatherIcon">
+                    <p id="currentTemp"><strong><span id="currentTemperature"></span>&deg;C</p></strong>
+                </figure>
+                <figcaption id="weatherDescription"></figcaption>
+                <strong><p class="weatherInfo">Humidity: <span id="currentHumidity"></span>%</p></strong>
+            </section>
+        </div>
     </main>
     <footer>
         <section id="footerContact">
