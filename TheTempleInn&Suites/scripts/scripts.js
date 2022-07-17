@@ -29,8 +29,8 @@ fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=14.6349&lon=90.5069&u
     .then((data) => {
         console.log(data)
 
-        let minTemp1 = data.daily[1].temp.min.toFixed(0);
-        let maxTemp1 = data.daily[1].temp.max.toFixed(0);
+        let minTemp1 = data.daily[1].temp.min.toFixed(1);
+        let maxTemp1 = data.daily[1].temp.max.toFixed(1);
         let description1 = data.daily[1].weather[0].description.toUpperCase();
         
         weatherIcon1.setAttribute('src', `https://openweathermap.org/img/w/${data.daily[1].weather[0].icon}.png`);
@@ -39,8 +39,8 @@ fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=14.6349&lon=90.5069&u
         document.querySelector("#lowest1").innerHTML = maxTemp1;
         document.querySelector("#weatherDescription1").innerHTML = description1;
 
-        let minTemp2 = data.daily[2].temp.min.toFixed(0);
-        let maxTemp2 = data.daily[2].temp.max.toFixed(0);
+        let minTemp2 = data.daily[2].temp.min.toFixed(1);
+        let maxTemp2 = data.daily[2].temp.max.toFixed(1);
         let description2 = data.daily[2].weather[0].description.toUpperCase();
         
         weatherIcon2.setAttribute('src', `https://openweathermap.org/img/w/${data.daily[2].weather[0].icon}.png`);
@@ -49,8 +49,8 @@ fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=14.6349&lon=90.5069&u
         document.querySelector("#lowest2").innerHTML = maxTemp2;
         document.querySelector("#weatherDescription2").innerHTML = description2;
 
-        let minTemp3 = data.daily[3].temp.min.toFixed(0);
-        let maxTemp3 = data.daily[3].temp.max.toFixed(0);
+        let minTemp3 = data.daily[3].temp.min.toFixed(1);
+        let maxTemp3 = data.daily[3].temp.max.toFixed(1);
         let description3 = data.daily[3].weather[0].description.toUpperCase();
         
         weatherIcon3.setAttribute('src', `https://openweathermap.org/img/w/${data.daily[3].weather[0].icon}.png`);

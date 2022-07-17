@@ -5,6 +5,7 @@
     --color3: #DEEEEE;
     --color4: #FFFFFF;
     --color5: #D7A74E;
+    --color6: #F6FAFE;
 }
 * {
     margin: 0;
@@ -106,10 +107,28 @@ nav {
     background-color: var(--color2);
 }
 
+/*========== Three Days Forecast ==========*/
 #threeDaysForecast {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    padding: .8rem;
+    background-color: var(--color6);
+    border-bottom: 1px solid var(--color1);
 }
+#threeDaysForecast h2 {
+    padding-bottom: .2rem;
+    color: var(--color1);
+    border-bottom: 2px solid var(--color1);
+}
+.days {
+    display: grid;
+    grid-template-columns: .8fr 1fr 2fr;
+    grid-gap: 1rem;
+    align-items: center;
+    margin-top: .8rem;
+}
+.days figure {
+    display: none;
+}
+
 
 /*========================= Main =========================*/
 main {
