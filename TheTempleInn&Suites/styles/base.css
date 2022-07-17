@@ -136,7 +136,38 @@ main {
 }
 
 
-/*========== Temples Main ==========*/
+/*========== Temples Quote ==========*/
+#templeSection {
+    position: relative;
+}
+
+#templeSection picture img {
+    width: 100%;
+    height: 335px;
+}
+
+.templeCover {
+    object-fit: cover;
+    border-radius: 20px;
+}
+#templeQuote {
+    background-color: var(--color4);
+    position: absolute;
+    top: 15%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    padding: 1rem .8rem;
+    font-weight: 600;
+    font-style: oblique;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    box-shadow: 5px 10px 18px var(--color1);
+    text-shadow: 2px 2px 6px rgb(255, 255, 54);
+}
+
 .TemplesDedicated ul li, .TemplesAnnounced ul li, #templeGuidelines li {
     text-align: left;
 }

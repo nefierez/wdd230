@@ -61,6 +61,15 @@
         grid-template-columns: 2/3;
     }
 
+    /*========== Temples Quote ==========*/
+    #templeSection picture img {
+        height: 325px;
+    }
+    #templeQuote {
+        top: 20%;
+        font-size: 1.3rem;
+    }
+
     /*========================= Footer =========================*/
     #newsletter {
         display: block;
