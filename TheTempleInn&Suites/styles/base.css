@@ -164,10 +164,13 @@ main {
     font-style: oblique;
     font-size: 1.2rem;
     border-radius: 10px;
+    color: #f6c528;
     box-shadow: 5px 10px 18px var(--color1);
-    text-shadow: 2px 2px 6px rgb(255, 255, 54);
 }
-
+#quotePerson {
+    text-align: end;
+    color: var(--color1);
+}
 .TemplesDedicated ul li, .TemplesAnnounced ul li, #templeGuidelines li {
     text-align: left;
 }
