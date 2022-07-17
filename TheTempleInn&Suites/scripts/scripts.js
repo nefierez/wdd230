@@ -60,11 +60,9 @@ fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=14.6349&lon=90.5069&u
         document.querySelector("#weatherDescription3").innerHTML = description3;
 });
 
-/* ===== Current Date =====*/
-
+/* ===== Three Days Calculation For Forecast =====*/
 const date = new Date();
 const weekDay = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-
 function threeDays(day) {
     if (day + date.getDay() > 6) {
         return day + date.getDay() - 7;
@@ -73,6 +71,6 @@ function threeDays(day) {
         return day + date.getDay();
     }
 }
-document.querySelector("#day1").innerHTML = weekDay[threeDays(1)];
-document.querySelector("#day2").innerHTML = weekDay[threeDays(2)];
-document.querySelector("#day3").innerHTML = weekDay[threeDays(3)];
+        document.querySelector("#day1").innerHTML = weekDay[threeDays(1)];
+        document.querySelector("#day2").innerHTML = weekDay[threeDays(2)];
+        document.querySelector("#day3").innerHTML = weekDay[threeDays(3)];
