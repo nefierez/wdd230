@@ -29,10 +29,14 @@
     footer .logo {
         max-width: 300px;
     }
+    /*==================== Home Page ====================*/
     /*========== Temples Quote ==========*/
     #templeQuote {
         top: 20%;
         font-size: 1.3rem;
+    }
+    #templeToDisplayPicture img {
+        width: 80%;
     }
 
     /*========== Three Days Forecast ==========*/
