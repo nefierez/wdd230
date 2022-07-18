@@ -156,7 +156,6 @@ function TempleAnnounced(temple) {
     templeCard.appendChild(milestonesTitle);
     templeCard.appendChild(milestones);
     
-
 /*===== Appending children to their parents =====*/
     templePhotoHolder.appendChild(templePhoto);
     milestones.appendChild(milestones1);
