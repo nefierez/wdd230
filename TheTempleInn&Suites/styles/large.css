@@ -97,6 +97,20 @@
         font-size: 1.4rem;
     }
 
+    /*==================== Temples Page ====================*/
+    .TemplesDedicated, .TemplesAnnounced {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        margin: 0 1rem 2rem 1rem;
+    }
+    .TemplesDedicated section, .TemplesAnnounced section {
+        margin: 0;
+    }
+    .TemplesDedicated h2, .TemplesAnnounced h2 {
+        font-size: 1.5rem;
+    }
+
     /*========================= Footer =========================*/
     #newsletter {
         display: block;

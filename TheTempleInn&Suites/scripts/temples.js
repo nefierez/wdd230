@@ -67,27 +67,12 @@ function TempleDedicated(temple) {
     closures5.innerHTML = `${temple.closures[4]}`;
     closures6.innerHTML = `${temple.closures[5]}`;
 
-/*===== Assigning classes to elements =====*/
-    templeCard.classList.add("temples")
-    templePhotoHolder.classList.add("templePhotoHolder")
-    templePhoto.classList.add("templePhoto");
-    name.classList.add("name");
-    address.classList.add("address");
-    phone.classList.add("phone");
-    email.classList.add("email");
-    servicesTitle.classList.add("servicesTitle")
-    services.classList.add("services");
-    milestonesTitle.classList.add("milestonesTitle")
-    milestones.classList.add("milestones");
-    closuresTitle.classList.add("closuresTitle");
-    closures.classList.add("closures");
-
 /*===== Appending holders to the Temple Cards =====*/
-    templeCard.appendChild(templePhotoHolder)
     templeCard.appendChild(name);
     templeCard.appendChild(address);
     templeCard.appendChild(phone);
     templeCard.appendChild(email);
+    templeCard.appendChild(templePhotoHolder)
     templeCard.appendChild(servicesTitle);
     templeCard.appendChild(services);
     templeCard.appendChild(milestonesTitle);
@@ -139,20 +124,11 @@ function TempleAnnounced(temple) {
     milestones1.innerHTML = `${temple.milestones[0]}`;
     milestones2.innerHTML = `${temple.milestones[1]}`;
 
-/*===== Assigning classes to elements =====*/
-    templeCard.classList.add("temples")
-    templePhotoHolder.classList.add("templePhotoHolder")
-    templePhoto.classList.add("templePhoto");
-    name.classList.add("name");
-    address.classList.add("address");
-    milestonesTitle.classList.add("milestonesTitle")
-    milestones.classList.add("milestones");
-
 /*===== Appending holders to the Temple Cards =====*/
-    templeCard.appendChild(templePhotoHolder)
     templeCard.appendChild(name);
     templeCard.appendChild(address);
     templeCard.appendChild(importantInfo);
+    templeCard.appendChild(templePhotoHolder);
     templeCard.appendChild(milestonesTitle);
     templeCard.appendChild(milestones);
     

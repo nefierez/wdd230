@@ -196,6 +196,7 @@ main h1 {
     border: 2px solid var(--color1);
     margin-right: .2rem;
     border-radius: 10px;
+    min-width: 180px;
 }
 #reservationBox {
     display: flex;
@@ -235,15 +236,52 @@ main h1 {
 }
 
 
-
 /*==================== Temples Page ====================*/
 .TemplesDedicated ul li, .TemplesAnnounced ul li, #templeGuidelines li {
     text-align: left;
+    padding-bottom: .5rem;
+    color: var(--color2);
 }
-.milestonesTitle, .servicesTitle, .closuresTitle {
+.TemplesDedicated ul, .TemplesAnnounced ul, #templeGuidelines {
+    padding-left: 1rem;
+}
+#templeGuidelinesSection {
+    padding: 1rem;
+    margin: 1rem 2rem;
+}
+.TemplesDedicated section, .TemplesAnnounced section {
+    padding: 1rem 2rem;
+    background-color: var(--color6);
+    margin-bottom: 1rem;
+    border: 2px solid var(--color1);
+    border-radius: 10px;
+}
+.TemplesDedicated h2, .TemplesAnnounced h2, #templeGuidelinesSection h2 {
+    padding-bottom: 1rem;
+    margin-top: .5rem;
+    color: var(--color5);
+}
+.TemplesDedicated p, .TemplesAnnounced p, #templeGuidelinesSection p {
+    padding-bottom: .8rem;
+    font-weight: 600;
+}
+.TemplesDedicated h3, .TemplesAnnounced h3 {
+    margin-top: 1rem;
+    padding-bottom: .5rem;
+    color: var(--color5);
     text-align: left;
 }
-
+.TemplesDedicated img, .TemplesAnnounced img {
+    border-radius: 5px;
+    margin: .5rem;
+    width: 80%;
+}
+.TemplesDedicated img {
+    max-width: 600px;
+}
+.TemplesAnnounced img {
+    max-width: 750px;
+}
 /*========================= Footer =========================*/
 /*===== Logo =====*/
 footer {
