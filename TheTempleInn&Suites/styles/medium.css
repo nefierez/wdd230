@@ -36,9 +36,15 @@
         font-size: 1.3rem;
     }
     #templeToDisplayPicture img {
-        width: 80%;
+        width: 90%;
     }
-
+    #mixedFeatures {
+        font-size: 1.2rem;
+    }
+    #angelMoroni {
+        display: block;
+        background-color: var(--color5);
+    }
     /*========== Three Days Forecast ==========*/
     #threeDaysForecast {
     display: grid;

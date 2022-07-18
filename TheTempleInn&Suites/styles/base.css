@@ -80,7 +80,6 @@ nav {
     color: var(--color1);
     background-color: var(--color3);
     border-bottom: 1px solid var(--color1);
-
 }
 #navigation.navigationDisplay, #closeIcon.closeIconDisplay, #subNavigation.subNavigationDisplay {
     display: block;
@@ -100,7 +99,6 @@ nav {
 .linkToPages:hover {
     color: var(--color1);
     background-color: var(--color3);
-
 }
 .linkToSubPages:hover {
     color: var(--color4);
@@ -174,8 +172,53 @@ main h1 {
     text-align: end;
     color: var(--color1);
 }
-#templeToDisplaySection {
+#mixedFeatures {
+    display: flex;
+    justify-content: space-around;
     margin: 2rem 1rem;
+    font-size: 1.1rem;
+}
+#mixedFeatures h3 {
+    color: var(--color1);
+    border-bottom: 4px double var(--color5);
+}
+#angelMoroni {
+    display: none;
+}
+#weatherFigure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#weatherBox {
+    padding: 1rem;
+    background-color: var(--color6);
+    border: 2px solid var(--color1);
+    margin-right: .2rem;
+    border-radius: 10px;
+}
+#reservationBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1rem;
+    background-color: var(--color6);
+    border: 2px solid var(--color1);
+    margin-left: .2rem;
+    border-radius: 10px;
+}
+.reservationButton {
+    color: var(--color4);
+    background-color: var(--color1);
+    cursor: pointer;
+    padding: 0.8rem;
+    border-radius: .5rem;
+    font-size: 1.2rem;
+    border: 1px solid var(--color1);
+    margin-top: .5rem;
+}
+#templeToDisplaySection {
+    margin: 0 1rem;
     padding: 1rem;
 }
 #templeToDisplaySection h2 {
@@ -187,7 +230,7 @@ main h1 {
 }
 #templeToDisplayPicture img {
     padding: 1.5rem;
-    width: 90%;
+    width: 100%;
     border-top: 5px double var(--color5);
 }
 

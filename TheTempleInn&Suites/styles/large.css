@@ -93,7 +93,9 @@
         padding: 2rem 0;
         max-width: 650px;
     }
-    
+    #mixedFeatures {
+        font-size: 1.4rem;
+    }
 
     /*========================= Footer =========================*/
     #newsletter {
