@@ -282,6 +282,11 @@ main h1 {
 .TemplesAnnounced img {
     max-width: 750px;
 }
+
+/*==================== Reservation Page ====================*/
+#reservationForm, legend, fieldset, label input, option, textarea {
+    text-align: left;
+}
 /*========================= Footer =========================*/
 /*===== Logo =====*/
 footer {

@@ -44,10 +44,10 @@
                 <ul id="navigation">
                     <li><a class="linkToPages" href="index.html">Home</a></li>
                     <li><a class="linkToPages" href="temples.html">Temples</a></li>
-                    <li><a class="linkToPages active" href="reservations.html">Reservations</a></li>
-                    <li><a id="servicesTab" class="linkToPages">Services</a>
+                    <li><a class="linkToPages" href="reservations.html">Reservations</a></li>
+                    <li><a id="servicesTab" class="linkToPages active">Services</a>
                         <ul id="subNavigation">
-                            <li><a class="linkToSubPages" href="services.html">Amenities & Special Services</a></li>
+                            <li><a class="linkToSubPages active" href="services.html">Amenities & Special Services</a></li>
                             <li><a class="linkToSubPages" href="reception.html">Reception</a></li>
                             <li><a class="linkToSubPages" href="missionaries.html">Full-time Temple Missionaries</a></li>
                         </ul>
@@ -84,29 +84,11 @@
         </div>
     </header>
     <main>
-        <form id="reservationForm" action="thankyou.html" method="get">   
-            <fieldset>
-                <legend>Your Information</legend>
-                <label class="formInfo">First Name* <input type="text" name="fname" required></label>
-                <label class="formInfo">Last Name* <input type="text" name="lname" required></label>
-                <label class="formInfo">Email* <input type="email" name="email" placeholder="service@temple&suites.com" required></label>
-                <label class="formInfo">Phone* <input type="tel" name="phone" placeholder="1230006280" required></label>
-                <select name="temple" required>
-                    <option value=""> </option>
-                    <option value="Guatemala, Guatemala City">Guatemala, Guatemala City</option>
-                    <option value="Quetzaltenango, Guatemala">Quetzaltenango, Guatemala</option>
-                    <option value="Coban, Guatemala">Coban, Guatemala</option>
-                    <option value="Miraflores, Guatemala City">Miraflores, Guatemala City</option>
-                </select>
-            </fieldset>
-            <fieldset>
-                <legend>Booking Details</legend>
-                <label>Check In* <input type="date" name="checkIn" min="2022-07-17" max="2023-12-31" required></label>
-                <label>Check Out* <input type="date" name="checkOut" min="2022-07-17" max="2023-12-31" required></label>
-            </fieldset>
-                <label class="businessInfo">Tell Us About Your Business<textarea class="textbox" name="tbox" cols="6" rows="5"></textarea></label>
-            <label class="submitBtnContainer"><input class="submitBtn" type="submit" value="Reserve Hotel Room"></label>
-        </form>
+        <main>
+            <h1>Thank you!</h1>
+            <p>We have received your information.</p>
+            <p>We will get back to you within 2-3 business days</p>
+        </main>
     </main>
     <footer>
         <section id="footerContact">
