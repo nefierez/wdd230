@@ -61,6 +61,9 @@
     }
 
     /*==================== Temples Page ====================*/
+    .TemplesDedicated, .TemplesAnnounced {
+        margin: 2rem 1rem;
+    }
     .TemplesDedicated section, .TemplesAnnounced section {
         margin: 2rem 3rem;
     }
