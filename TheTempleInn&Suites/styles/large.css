@@ -96,7 +96,6 @@
     #mixedFeatures {
         font-size: 1.4rem;
     }
-
     /*==================== Temples Page ====================*/
     .TemplesDedicated, .TemplesAnnounced {
         display: grid;
@@ -114,6 +113,10 @@
         font-size: 1.5rem;
     }
 
+    /*==================== Reservation Page ====================*/
+    #reservationForm fieldset {
+        margin: 2rem 4rem;
+    }
     /*========================= Footer =========================*/
     #newsletter {
         display: block;

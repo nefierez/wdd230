@@ -287,9 +287,53 @@ main h1 {
 #reservationForm, legend, fieldset, label, label input, option, textarea {
     text-align: left;
 }
-#reservationForm label, #reservationForm label input, #reservationForm label textarea {
+.personalInfoLabel input, .bookingInfoLabel input, #reservationForm label textarea, .bookingSelectLabel select {
     display: block;
 }
+#guestNumber, #suiteNumber, #reservationDates {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#reservationForm fieldset {
+    color: var(--color1);
+    background-color: var(--color6);
+    border-radius: 10px;
+    padding: 1rem;
+    padding-left: 10%;
+    margin: 2rem;
+}
+#reservationForm legend {
+    color: var(--color5);
+    text-shadow: 0 0 15px var(--color6);
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: .3rem;
+    border-bottom: 2px solid var(--color5);
+}
+#reservationForm input, #reservationForm select, #reservationForm textarea {
+    color: var(--color1);
+    background-color: var(--color4);
+    font-size: 1.1rem;
+    padding: .7rem;
+    margin-bottom: 1rem;
+}
+.bookingSelectLabel select, #reservationDates input {
+    width: 80%;
+}
+.personalInfoLabel input, #reservationForm textarea, .templeSelection select, .submitBtn {
+    width: 90%;
+}
+#reservationForm .submitBtn {
+    color: var(--color4);
+    background-color: var(--color1);
+    border: 1px solid var(--color1);
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+
 /*========================= Footer =========================*/
 /*===== Logo =====*/
 footer {

@@ -77,4 +77,19 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    #reservationForm fieldset {
+        margin: 2rem 3rem;
+    }
+    #reservationDates, #textAreaLabel, #buttonLabel, .templeSelection {
+        grid-column: 1/3;
+    }
+    #reservationDates input {
+        width: 90%;
+    }
+    #textAreaLabel textarea, #buttonLabel input, .templeSelection select {
+        width: 95%;
+    }
+    #reservationForm fieldset {
+        padding-left: 6%;
+    }
 }

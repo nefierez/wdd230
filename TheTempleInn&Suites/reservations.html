@@ -55,43 +55,17 @@
                 </ul>
             </nav>
         </div>
-        <div id="threeDaysForecast">
-            <h2>Three Days Forecast</h2>
-            <section class="days">
-                <h3 id="day1"></h3>
-                <figure>
-                    <img src="" alt="" id="weatherIcon1">
-                </figure>
-                <p id="weatherDescription1"></p>
-                <p class="temperatures">Max <span id="lowest1"></span>&deg;C <span class="temperatureDivision">.:|:.</span> Min <span id="highest1"></span>&deg;C</p>
-            </section>
-            <section class="days">
-                <h3 id="day2"></h3>
-                <figure>
-                    <img src="" alt="" id="weatherIcon2">
-                </figure>
-                <p id="weatherDescription2"></p>
-                <p class="temperatures">Max <span id="lowest2"></span>&deg;C <span class="temperatureDivision">.:|:.</span> Min <span id="highest2"></span>&deg;C</p>
-            </section>
-            <section class="days">
-                <h3 id="day3"></h3>
-                <figure>
-                    <img src="" alt="" id="weatherIcon3">
-                </figure>
-                <p id="weatherDescription3"></p>
-                <p class="temperatures">Max <span id="lowest3"></span>&deg;C <span class="temperatureDivision">.:|:.</span> Min <span id="highest3"></span>&deg;C</p>
-            </section>
-        </div>
     </header>
     <main>
+        <h1>Reserve Now!</h1>
         <form id="reservationForm" action="thankyou.html" method="get">   
             <fieldset>
                 <legend>Your Information</legend>
-                <label class="formInfo">First Name* <input type="text" name="fname" size="15" required></label>
-                <label class="formInfo">Last Name* <input type="text" name="lname" size="15" required></label>
-                <label class="formInfo">Email* <input type="email" name="email" size="15" placeholder="service@temple&suites.com" required></label>
-                <label class="formInfo">Phone* <input type="tel" name="phone" placeholder="1230006280" size="15" required></label>
-                <label for="temple">Temple Selection*
+                <label for="fname" class="personalInfoLabel">First Name* <input type="text" name="fname" required></label>
+                <label for="lname" class="personalInfoLabel">Last Name* <input type="text" name="lname" required></label>
+                <label for="email" class="personalInfoLabel">Email* <input type="email" name="email" placeholder="service@temple&suites.com" required></label>
+                <label for="phone" class="personalInfoLabel">Phone* <input type="tel" name="phone" placeholder="1230006280" required></label>
+                <label for="temple" class="bookingSelectLabel templeSelection">Temple Selection*
                     <select name="temple" required>
                         <option value=""> </option>
                         <option value="Guatemala, Guatemala City">Guatemala, Guatemala City</option>
@@ -103,63 +77,73 @@
             </fieldset>
             <fieldset>
                 <legend>Booking Details</legend>
-                <label>Check In* <input type="date" name="checkIn" min="2022-07-20" max="2023-12-31" required></label>
-                <label>Check Out* <input type="date" name="checkOut" min="2022-07-21" max="2023-12-31" required></label>
-                <label for="Adults">Adult(s)*
-                    <select name="Adults" required>
-                        <option value=""></option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                        <option value="8">8</option>
-                        <option value="9">9</option>
-                        <option value="10">10</option>
-                        <option value="More">More</option>
-                    </select>
-                </label>
-                <label for="Children">Child(ren)*
-                    <select name="Children" required>
-                        <option value=""></option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                        <option value="8">8</option>
-                        <option value="9">9</option>
-                        <option value="10">10</option>
-                        <option value="More">More</option>
-                    </select>
-                </label>
-                <label for="SuitesType">Suite(s) Type*
-                    <select name="SuitesType" required>
-                        <option value=""></option>
-                        <option value="Single">Single</option>
-                        <option value="Double">Double</option>
-                        <option value="Triple">Triple</option>
-                        <option value="Quad">Quad</option>
-                    </select>
-                </label>
-                <label for="SuitesNumber">Suite(s)*
-                    <select name="SuitesNumber" required>
-                        <option value=""></option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="More">More</option>
-                    </select>
-                </label>
-                <label class="businessInfo">Special Comments<textarea class="textbox" name="tbox" cols="6" rows="5"></textarea></label>
+                <section id="reservationDates">
+                    <label for="checkIn" class="bookingInfoLabel">Check In*
+                        <input type="date" name="checkIn" min="2022-07-20" max="2023-12-31" required>
+                    </label>
+                    <label for="checkOut" class="bookingInfoLabel">Check Out*
+                        <input type="date" name="checkOut" min="2022-07-21" max="2023-12-31" required>
+                    </label>
+                </section>
+                <section id="guestNumber">
+                    <label for="Adults" class="bookingSelectLabel">Adult(s)*
+                        <select name="Adults" required>
+                            <option value=""></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="More">More</option>
+                        </select>
+                    </label>
+                    <label for="Children" class="bookingSelectLabel">Child(ren)*
+                        <select name="Children" required>
+                            <option value=""></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="More">More</option>
+                        </select>
+                    </label>
+                </section>
+                <section id="suiteNumber">
+                    <label for="SuitesType" class="bookingSelectLabel">Suite(s) Type*
+                        <select name="SuitesType" required>
+                            <option value=""></option>
+                            <option value="Single">Single</option>
+                            <option value="Double">Double</option>
+                            <option value="Triple">Triple</option>
+                            <option value="Quad">Quad</option>
+                        </select>
+                    </label>
+                    <label for="SuitesNumber" class="bookingSelectLabel">Suite(s)*
+                        <select name="SuitesNumber" required>
+                            <option value=""></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="More">More</option>
+                        </select>
+                    </label>
+                </section>
+                <label id="textAreaLabel">Special Comments<textarea class="textbox" name="tbox" cols="6" rows="5"></textarea></label>
+                <label id="buttonLabel"><input class="submitBtn" type="submit" value="Reserve Hotel Room"></label>
             </fieldset>
-            <label class="submitBtnContainer"><input class="submitBtn" type="submit" value="Reserve Hotel Room"></label>
         </form>
     </main>
     <footer>
