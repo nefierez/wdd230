@@ -87,24 +87,78 @@
         <form id="reservationForm" action="thankyou.html" method="get">   
             <fieldset>
                 <legend>Your Information</legend>
-                <label class="formInfo">First Name* <input type="text" name="fname" required></label>
-                <label class="formInfo">Last Name* <input type="text" name="lname" required></label>
-                <label class="formInfo">Email* <input type="email" name="email" placeholder="service@temple&suites.com" required></label>
-                <label class="formInfo">Phone* <input type="tel" name="phone" placeholder="1230006280" required></label>
-                <select name="temple" required>
-                    <option value=""> </option>
-                    <option value="Guatemala, Guatemala City">Guatemala, Guatemala City</option>
-                    <option value="Quetzaltenango, Guatemala">Quetzaltenango, Guatemala</option>
-                    <option value="Coban, Guatemala">Coban, Guatemala</option>
-                    <option value="Miraflores, Guatemala City">Miraflores, Guatemala City</option>
-                </select>
+                <label class="formInfo">First Name* <input type="text" name="fname" size="15" required></label>
+                <label class="formInfo">Last Name* <input type="text" name="lname" size="15" required></label>
+                <label class="formInfo">Email* <input type="email" name="email" size="15" placeholder="service@temple&suites.com" required></label>
+                <label class="formInfo">Phone* <input type="tel" name="phone" placeholder="1230006280" size="15" required></label>
+                <label for="temple">Temple Selection*
+                    <select name="temple" required>
+                        <option value=""> </option>
+                        <option value="Guatemala, Guatemala City">Guatemala, Guatemala City</option>
+                        <option value="Quetzaltenango, Guatemala">Quetzaltenango, Guatemala</option>
+                        <option value="Coban, Guatemala">Coban, Guatemala</option>
+                        <option value="Miraflores, Guatemala City">Miraflores, Guatemala City</option>
+                    </select>
+                </label>
             </fieldset>
             <fieldset>
                 <legend>Booking Details</legend>
-                <label>Check In* <input type="date" name="checkIn" min="2022-07-17" max="2023-12-31" required></label>
-                <label>Check Out* <input type="date" name="checkOut" min="2022-07-17" max="2023-12-31" required></label>
+                <label>Check In* <input type="date" name="checkIn" min="2022-07-20" max="2023-12-31" required></label>
+                <label>Check Out* <input type="date" name="checkOut" min="2022-07-21" max="2023-12-31" required></label>
+                <label for="Adults">Adult(s)*
+                    <select name="Adults" required>
+                        <option value=""></option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="More">More</option>
+                    </select>
+                </label>
+                <label for="Children">Child(ren)*
+                    <select name="Children" required>
+                        <option value=""></option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="More">More</option>
+                    </select>
+                </label>
+                <label for="SuitesType">Suite(s) Type*
+                    <select name="SuitesType" required>
+                        <option value=""></option>
+                        <option value="Single">Single</option>
+                        <option value="Double">Double</option>
+                        <option value="Triple">Triple</option>
+                        <option value="Quad">Quad</option>
+                    </select>
+                </label>
+                <label for="SuitesNumber">Suite(s)*
+                    <select name="SuitesNumber" required>
+                        <option value=""></option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="More">More</option>
+                    </select>
+                </label>
+                <label class="businessInfo">Special Comments<textarea class="textbox" name="tbox" cols="6" rows="5"></textarea></label>
             </fieldset>
-                <label class="businessInfo">Tell Us About Your Business<textarea class="textbox" name="tbox" cols="6" rows="5"></textarea></label>
             <label class="submitBtnContainer"><input class="submitBtn" type="submit" value="Reserve Hotel Room"></label>
         </form>
     </main>
