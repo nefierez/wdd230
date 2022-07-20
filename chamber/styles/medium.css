@@ -113,11 +113,6 @@
     .membershipDescription {
         display: none;
     }
-
-
-
-    
-    
     img[data-src] {
         filter: blur(.5em);
       }
@@ -126,9 +121,6 @@
         filter: blur(0em);
         transition: filter 2s;
       }
-
-
-
     .discoverSections {
         display: grid;
         grid-template-columns: 1.25fr 1fr;
@@ -145,21 +137,11 @@
         box-shadow: 0 0 40px #08232B;
     }
 
-
-
-
-
-
-
     .infoCards-list section {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         align-items: center;
     }
-
-
-
-
     #contactBody, #joinBody {
         display: grid;
         grid-template-columns: 1.5fr 1fr;
