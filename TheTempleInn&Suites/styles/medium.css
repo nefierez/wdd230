@@ -95,4 +95,7 @@
     #reservationForm fieldset {
         padding-left: 6%;
     }
+    #reservationForm .submitBtn:hover, .servicesBoxes .submitBtn:hover {
+        background-color: var(--color2);
+    }
 }
