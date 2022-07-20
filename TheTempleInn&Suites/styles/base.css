@@ -346,6 +346,7 @@ main h1 {
 }
 #specialServices h2, #suites h2, #amenities h2 {
     color: var(--color1);
+    margin: 1.5rem 0;
 }
 #specialServices, #suites {
     margin: 2rem;
