@@ -235,7 +235,6 @@ main h1 {
     border-top: 5px double var(--color5);
 }
 
-
 /*==================== Temples & Services Page ====================*/
 .TemplesDedicated ul li, .TemplesAnnounced ul li, #templeGuidelines li, #amenities ul li {
     text-align: left;
@@ -261,7 +260,7 @@ main h1 {
     margin-top: .5rem;
     color: var(--color5);
 }
-.TemplesDedicated p, .TemplesAnnounced p, #templeGuidelinesSection p, .servicesBoxes p {
+.TemplesDedicated p, .TemplesAnnounced p, #templeGuidelinesSection p, #suites .servicesBoxes p {
     padding-bottom: .8rem;
     font-weight: 600;
 }
@@ -334,13 +333,22 @@ main h1 {
     text-align: center;
 }
 /*==================== Services Page ====================*/
-.servicesBoxes img {
+#suites .servicesBoxes img {
     max-width: 300px;
+}
+#specialServices .servicesBoxes img {
+    max-width: 400px;
 }
 .servicesBoxes .submitBtn {
     width: 80%;
     max-width: 300px;
-    margin: 1rem;
+    margin: .5rem;
+}
+#specialServices h2, #suites h2, #amenities h2 {
+    color: var(--color1);
+}
+#specialServices, #suites {
+    margin: 2rem;
 }
 
 /*========================= Footer =========================*/

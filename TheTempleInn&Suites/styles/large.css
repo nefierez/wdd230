@@ -162,3 +162,19 @@
         margin-top: 4rem;
     }
 }
+@media (min-width: 1300px) {
+    #suites {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    #specialServices {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    #suites h2 {
+        grid-column: 1/5;
+    }
+    #specialServices h2 {
+        grid-column: 1/4;
+    }
+}
