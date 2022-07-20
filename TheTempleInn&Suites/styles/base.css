@@ -236,32 +236,32 @@ main h1 {
 }
 
 
-/*==================== Temples Page ====================*/
-.TemplesDedicated ul li, .TemplesAnnounced ul li, #templeGuidelines li {
+/*==================== Temples & Services Page ====================*/
+.TemplesDedicated ul li, .TemplesAnnounced ul li, #templeGuidelines li, #amenities ul li {
     text-align: left;
     padding-bottom: .5rem;
     color: var(--color2);
 }
-.TemplesDedicated ul, .TemplesAnnounced ul, #templeGuidelines {
+.TemplesDedicated ul, .TemplesAnnounced ul, #templeGuidelines, #amenities ul {
     padding-left: 1rem;
 }
-#templeGuidelinesSection {
+#templeGuidelinesSection, #amenities {
     padding: 1rem;
     margin: 1rem 2rem;
 }
-.TemplesDedicated section, .TemplesAnnounced section {
+.TemplesDedicated section, .TemplesAnnounced section, .servicesBoxes {
     padding: 1rem 2rem;
     background-color: var(--color6);
-    margin-bottom: 1rem;
     border: 2px solid var(--color1);
     border-radius: 10px;
+    margin: 2rem;
 }
-.TemplesDedicated h2, .TemplesAnnounced h2, #templeGuidelinesSection h2 {
+.TemplesDedicated h2, .TemplesAnnounced h2, #templeGuidelinesSection h2, .servicesBoxes h3 {
     padding-bottom: 1rem;
     margin-top: .5rem;
     color: var(--color5);
 }
-.TemplesDedicated p, .TemplesAnnounced p, #templeGuidelinesSection p {
+.TemplesDedicated p, .TemplesAnnounced p, #templeGuidelinesSection p, .servicesBoxes p {
     padding-bottom: .8rem;
     font-weight: 600;
 }
@@ -271,7 +271,7 @@ main h1 {
     color: var(--color5);
     text-align: left;
 }
-.TemplesDedicated img, .TemplesAnnounced img {
+.TemplesDedicated img, .TemplesAnnounced img, .servicesBoxes img {
     border-radius: 5px;
     margin: .5rem;
     width: 80%;
@@ -333,7 +333,11 @@ main h1 {
     font-size: 1.3rem;
     text-align: center;
 }
+/*==================== Services Page ====================*/
 
+.servicesBoxes img {
+    max-width: 300px;;
+}
 
 /*========================= Footer =========================*/
 /*===== Logo =====*/
@@ -373,11 +377,13 @@ footer .logo img {
     font-size: 1rem;
     padding: .8rem;
     width: 80%;
+    text-align: center;
 }
 #inputEmail {
     color: var(--color1);
     border: none;
     font-weight: 550;
+    text-align: center;
 }
 #newsletterButton {
     cursor: pointer;
