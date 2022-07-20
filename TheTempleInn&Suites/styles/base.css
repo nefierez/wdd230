@@ -332,6 +332,14 @@ main h1 {
     font-size: 1.3rem;
     text-align: center;
 }
+/*==================== Reception Page ====================*/
+.firstSetOfImages, .secondSetOfImages {
+    margin: 0 1rem;
+}
+.receptionImages {
+    width: 90%;
+    margin-bottom: 1rem;
+}
 /*==================== Services Page ====================*/
 #suites .servicesBoxes img {
     max-width: 300px;
