@@ -253,7 +253,7 @@ main h1 {
     background-color: var(--color6);
     border: 2px solid var(--color1);
     border-radius: 10px;
-    margin: 2rem;
+    margin: 2rem 1rem;
 }
 .TemplesDedicated h2, .TemplesAnnounced h2, #templeGuidelinesSection h2, .servicesBoxes h3 {
     padding-bottom: 1rem;
