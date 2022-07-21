@@ -121,4 +121,13 @@
     #amenities ul {
         margin-left: 2rem;
     }
+    .firstSetOfImages, .secondSetOfImages {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0;
+        margin-bottom: .5rem;
+    }
+    #receptionHolder {
+        margin: 0 2rem;
+    }
 }
