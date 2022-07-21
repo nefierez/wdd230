@@ -78,7 +78,7 @@
     .TemplesDedicated section:hover, .TemplesAnnounced section:hover, .servicesBoxes:hover {
         box-shadow: 0 0 20px var(--color1);
     }
-    .TemplesDedicated img:hover, .TemplesAnnounced img:hover, .servicesBoxes img:hover {
+    .TemplesDedicated img:hover, .TemplesAnnounced img:hover, .servicesBoxes img:hover, .receptionImages:hover {
         box-shadow: 0 0 10px var(--color2);
         padding: 1rem;
     }
