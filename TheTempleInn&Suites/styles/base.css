@@ -1,10 +1,10 @@
 /* ===== General =====*/
 :root {
     --color1: #012D57;
-    --color2: #1770A1;
+    --color2: #064669;
     --color3: #DEEEEE;
     --color4: #FFFFFF;
-    --color5: #F6C528;
+    --color5: #A35C00;
     --color6: #F6FAFE;
 }
 * {
@@ -70,7 +70,7 @@ nav {
     padding: 0.8rem 2vw;
     text-decoration: none;
     color: var(--color4);
-    background-color: var(--color2);
+    background-color: #1770A1;
     border-top: 1px solid var(--color4);
 }
 .linkToSubPages {
@@ -102,7 +102,7 @@ nav {
 }
 .linkToSubPages:hover {
     color: var(--color4);
-    background-color: var(--color2);
+    background-color: #1770A1;
 }
 
 /*========== Three Days Forecast ==========*/
