@@ -234,6 +234,9 @@ main h1 {
     width: 100%;
     border-top: 5px double var(--color5);
 }
+#templeToDisplayIMG {
+    max-width: 725px;
+}
 
 /*==================== Temples & Services Page ====================*/
 .TemplesDedicated ul li, .TemplesAnnounced ul li, #templeGuidelines li, #amenities ul li {
