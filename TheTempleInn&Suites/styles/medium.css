@@ -1,10 +1,11 @@
 @media (min-width: 700px) {
     :root {
         --color1: #012D57;
-        --color2: #1770A1;
+        --color2: #064669;
         --color3: #DEEEEE;
         --color4: #FFFFFF;
-        --color5: #F6C528;
+        --color5: #A35C00;
+        --color6: #F6FAFE;
     }
     .logo {
         max-width: 400px;
