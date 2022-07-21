@@ -156,7 +156,7 @@
         justify-content: end;
         margin: 0;
     }
-    footer .logo, #myInfo {
+    footer .logo, #myInfo, .attribution {
         grid-column: 1/3;
     }
     footer .logo img {

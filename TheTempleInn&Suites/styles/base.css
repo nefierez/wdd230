@@ -238,7 +238,7 @@ main h1 {
     max-width: 725px;
 }
 /*==================== Temples & Services Page ====================*/
-.TemplesDedicated ul li, .TemplesAnnounced ul li, #templeGuidelines li {
+.TemplesDedicated ul li, .TemplesAnnounced ul li, #templeGuidelines li, #attributions ul li {
     text-align: left;
     padding-bottom: .5rem;
     color: var(--color2);
@@ -248,10 +248,10 @@ main h1 {
     color: var(--color2);
     list-style: none;
 }
-.TemplesDedicated ul, .TemplesAnnounced ul, #templeGuidelines {
+.TemplesDedicated ul, .TemplesAnnounced ul, #templeGuidelines{
     padding-left: 1rem;
 }
-#templeGuidelinesSection, #amenities, #weddingServices {
+#templeGuidelinesSection, #amenities, #weddingServices, #attributions, #attributions ul {
     padding: 1rem;
     margin: 1rem 2rem;
 }
@@ -376,6 +376,12 @@ footer {
     color: var(--color4);
     padding: 1rem;
     line-height: 1.5rem;
+}
+.attribution a {
+    color: var(--color4);
+}
+.attribution {
+    margin: .5rem;
 }
 #footerContact {
     margin: 1rem;
