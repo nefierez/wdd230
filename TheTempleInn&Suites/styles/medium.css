@@ -119,9 +119,6 @@
         flex-direction: column;
         justify-content: space-between;
     }
-    #amenities ul {
-        margin-left: 2rem;
-    }
     .firstSetOfImages, .secondSetOfImages {
         display: grid;
         grid-template-columns: 1fr 1fr;
